@@ -46,8 +46,6 @@ int main()
         double anreise = fahrtkosten + Flugpreis;
         cout << "\n In diesem Fall beträgt der Preis für die gesamte Anreise beträgt nun" << anreise << endl;
 
-
-
     // Hotelkosten
         cout << "Wie viele Tage möchten Sie das Hotel buchen? Die Nacht kostet 65 Euro" << endl;
         double tage;
@@ -71,13 +69,7 @@ int main()
         cout << "Kosten vor Ort " << vorortkosten << endl << endl;
         cout << "Gesamtpreis " << gesamtpreis << endl << endl << endl;
 
-
-
-
-
         return 0;
-
-
 
 }
 
