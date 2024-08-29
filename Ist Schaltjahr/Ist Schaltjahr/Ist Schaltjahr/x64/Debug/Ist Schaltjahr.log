@@ -1,0 +1,11 @@
+﻿  funktionen.cpp
+C:\Users\CSL\source\repos\Ist Schaltjahr\Ist Schaltjahr\funktionen.cpp(13,3): error C2065: "cout": nichtdeklarierter Bezeichner
+C:\Users\CSL\source\repos\Ist Schaltjahr\Ist Schaltjahr\funktionen.cpp(14,2): error C2065: "cin": nichtdeklarierter Bezeichner
+C:\Users\CSL\source\repos\Ist Schaltjahr\Ist Schaltjahr\funktionen.cpp(16,12): error C2106: "=": Linker Operand muss ein L-Wert sein
+C:\Users\CSL\source\repos\Ist Schaltjahr\Ist Schaltjahr\funktionen.cpp(16,75): error C2106: "=": Linker Operand muss ein L-Wert sein
+C:\Users\CSL\source\repos\Ist Schaltjahr\Ist Schaltjahr\funktionen.cpp(16,57): error C2106: "=": Linker Operand muss ein L-Wert sein
+C:\Users\CSL\source\repos\Ist Schaltjahr\Ist Schaltjahr\funktionen.cpp(16,49): error C2106: "=": Linker Operand muss ein L-Wert sein
+C:\Users\CSL\source\repos\Ist Schaltjahr\Ist Schaltjahr\funktionen.cpp(16,94): warning C4390: ";": Leere kontrollierte Anweisung aufgetreten; ist dies beabsichtigt?
+  Ist Schaltjahr.cpp
+C:\Users\CSL\source\repos\Ist Schaltjahr\Ist Schaltjahr\Ist Schaltjahr.cpp(7,2): error C3861: "istschaltjahr": Bezeichner wurde nicht gefunden.
+  Code wird generiert...

@@ -1,0 +1,28 @@
+﻿  Übung mit Bier.cpp
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(51,9): warning C4566: Das durch den universellen Zeichennamen "\u28FF" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(51,9): error C2001: Zeilenvorschub in Konstante.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(52,1): error C3873: "0x28ff": Dieses Zeichen ist nicht als erstes Zeichen eines Bezeichners zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(52,1): error C3872: "0x28ff": Dieses Zeichen ist in einem Bezeichner nicht zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(52,1): error C3872: "0x287f": Dieses Zeichen ist in einem Bezeichner nicht zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(52,1): error C3872: "0x281f": Dieses Zeichen ist in einem Bezeichner nicht zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(52,1): error C3872: "0x281b": Dieses Zeichen ist in einem Bezeichner nicht zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(52,1): error C3872: "0x280b": Dieses Zeichen ist in einem Bezeichner nicht zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(52,1): error C3872: "0x2809": Dieses Zeichen ist in einem Bezeichner nicht zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(52,1): error C3872: "0x2801": Dieses Zeichen ist in einem Bezeichner nicht zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(52,1): error C3872: "0x2804": Dieses Zeichen ist in einem Bezeichner nicht zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(52,1): error C3872: "0x2819": Dieses Zeichen ist in einem Bezeichner nicht zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(52,1): error C3872: "0x283f": Dieses Zeichen ist in einem Bezeichner nicht zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(52,1): error C3872: "0x28bf": Dieses Zeichen ist in einem Bezeichner nicht zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(53,1): error C3873: "0x28ff": Dieses Zeichen ist nicht als erstes Zeichen eines Bezeichners zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(53,1): error C3872: "0x28ff": Dieses Zeichen ist in einem Bezeichner nicht zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(53,1): error C3872: "0x283f": Dieses Zeichen ist in einem Bezeichner nicht zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(53,1): error C3872: "0x281b": Dieses Zeichen ist in einem Bezeichner nicht zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(53,1): error C3872: "0x2809": Dieses Zeichen ist in einem Bezeichner nicht zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(53,1): error C3872: "0x2801": Dieses Zeichen ist in einem Bezeichner nicht zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(53,1): error C3872: "0x2804": Dieses Zeichen ist in einem Bezeichner nicht zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(53,1): error C3872: "0x28c0": Dieses Zeichen ist in einem Bezeichner nicht zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(53,1): error C3872: "0x28e4": Dieses Zeichen ist in einem Bezeichner nicht zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(53,1): error C3872: "0x2876": Dieses Zeichen ist in einem Bezeichner nicht zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(53,1): error C3872: "0x2836": Dieses Zeichen ist in einem Bezeichner nicht zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(53,1): error C3872: "0x2837": Dieses Zeichen ist in einem Bezeichner nicht zulässig.
+C:\Users\CSL\source\repos\Übungen\Übung mit Bier\Übung mit Bier\Übung mit Bier.cpp(53,1): error C1003: Mehr als 100 Fehler gefunden; Kompilierung wird abgebrochen.

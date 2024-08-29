@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CSL\\source\\repos\\\u00DCbungen\\\u00DCbung mit Bier\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A7A0C3-8C4C-43EB-BEE5-C6A4557AF15B}|\u00DCbung mit Bier\\\u00DCbung mit Bier.vcxproj|C:\\Users\\CSL\\source\\repos\\\u00DCbungen\\\u00DCbung mit Bier\\\u00DCbung mit Bier\\\u00DCbung mit Bier.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8A7A0C3-8C4C-43EB-BEE5-C6A4557AF15B}|\u00DCbung mit Bier\\\u00DCbung mit Bier.vcxproj|solutionrelative:\u00DCbung mit Bier\\\u00DCbung mit Bier.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u00DCbung mit Bier.cpp",
+              "DocumentMoniker": "C:\\Users\\CSL\\source\\repos\\\u00DCbungen\\\u00DCbung mit Bier\\\u00DCbung mit Bier\\\u00DCbung mit Bier.cpp",
+              "RelativeDocumentMoniker": "\u00DCbung mit Bier\\\u00DCbung mit Bier.cpp",
+              "ToolTip": "C:\\Users\\CSL\\source\\repos\\\u00DCbungen\\\u00DCbung mit Bier\\\u00DCbung mit Bier\\\u00DCbung mit Bier.cpp",
+              "RelativeToolTip": "\u00DCbung mit Bier\\\u00DCbung mit Bier.cpp",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAAD4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-16T07:01:28.762Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

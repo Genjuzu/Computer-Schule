@@ -1,0 +1,2 @@
+﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "main" in Funktion ""int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)".
+C:\Users\CSL\source\repos\Rettungsschwimmer\x64\Debug\Rettungsschwimmer.exe : fatal error LNK1120: 1 nicht aufgelöste Externe

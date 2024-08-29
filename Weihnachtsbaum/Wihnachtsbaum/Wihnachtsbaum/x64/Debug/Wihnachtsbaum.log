@@ -1,0 +1,2 @@
+﻿  Funktionen.cpp
+C:\Users\CSL\source\repos\Weihnachtsbaum\Wihnachtsbaum\Wihnachtsbaum\Funktionen.cpp(1,10): error C1083: Datei (Include) kann nicht geöffnet werden: "stdafx.h": No such file or directory

@@ -1,0 +1,2 @@
+﻿  Arrays.cpp
+C:\Users\CSL\source\repos\Arrays\Arrays\Arrays.cpp(11,19): error C3863: Der Arraytyp "int [10]" kann nicht zugewiesen werden.

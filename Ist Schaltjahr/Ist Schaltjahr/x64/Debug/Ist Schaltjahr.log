@@ -1,0 +1,3 @@
+﻿  funktionen.cpp
+C:\Users\CSL\source\repos\Ist Schaltjahr\Ist Schaltjahr\funktionen.cpp(29,45): warning C4145: "||": Relationaler Ausdruck als Schalterausdruck; mögliche Verwechslung mit "|"
+  Ist Schaltjahr.vcxproj -> C:\Users\CSL\source\repos\Ist Schaltjahr\x64\Debug\Ist Schaltjahr.exe

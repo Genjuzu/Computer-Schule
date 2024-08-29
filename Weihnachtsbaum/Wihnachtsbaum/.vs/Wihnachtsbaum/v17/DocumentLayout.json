@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CSL\\source\\repos\\Weihnachtsbaum\\Wihnachtsbaum\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0210A74-EF9C-4FA9-AF0F-81C1A38706CE}|Wihnachtsbaum\\Wihnachtsbaum.vcxproj|C:\\Users\\CSL\\source\\repos\\Weihnachtsbaum\\Wihnachtsbaum\\Wihnachtsbaum\\Funktionen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0210A74-EF9C-4FA9-AF0F-81C1A38706CE}|Wihnachtsbaum\\Wihnachtsbaum.vcxproj|solutionrelative:Wihnachtsbaum\\Funktionen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0210A74-EF9C-4FA9-AF0F-81C1A38706CE}|Wihnachtsbaum\\Wihnachtsbaum.vcxproj|C:\\Users\\CSL\\source\\repos\\Weihnachtsbaum\\Wihnachtsbaum\\Wihnachtsbaum\\Wihnachtsbaum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0210A74-EF9C-4FA9-AF0F-81C1A38706CE}|Wihnachtsbaum\\Wihnachtsbaum.vcxproj|solutionrelative:Wihnachtsbaum\\Wihnachtsbaum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0210A74-EF9C-4FA9-AF0F-81C1A38706CE}|Wihnachtsbaum\\Wihnachtsbaum.vcxproj|C:\\Users\\CSL\\source\\repos\\Weihnachtsbaum\\Wihnachtsbaum\\Wihnachtsbaum\\Funktionen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0210A74-EF9C-4FA9-AF0F-81C1A38706CE}|Wihnachtsbaum\\Wihnachtsbaum.vcxproj|solutionrelative:Wihnachtsbaum\\Funktionen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Funktionen.cpp",
+              "DocumentMoniker": "C:\\Users\\CSL\\source\\repos\\Weihnachtsbaum\\Wihnachtsbaum\\Wihnachtsbaum\\Funktionen.cpp",
+              "RelativeDocumentMoniker": "Wihnachtsbaum\\Funktionen.cpp",
+              "ToolTip": "C:\\Users\\CSL\\source\\repos\\Weihnachtsbaum\\Wihnachtsbaum\\Wihnachtsbaum\\Funktionen.cpp",
+              "RelativeToolTip": "Wihnachtsbaum\\Funktionen.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-21T06:33:33.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Funktionen.h",
+              "DocumentMoniker": "C:\\Users\\CSL\\source\\repos\\Weihnachtsbaum\\Wihnachtsbaum\\Wihnachtsbaum\\Funktionen.h",
+              "RelativeDocumentMoniker": "Wihnachtsbaum\\Funktionen.h",
+              "ToolTip": "C:\\Users\\CSL\\source\\repos\\Weihnachtsbaum\\Wihnachtsbaum\\Wihnachtsbaum\\Funktionen.h",
+              "RelativeToolTip": "Wihnachtsbaum\\Funktionen.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-21T06:38:52.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Wihnachtsbaum.cpp",
+              "DocumentMoniker": "C:\\Users\\CSL\\source\\repos\\Weihnachtsbaum\\Wihnachtsbaum\\Wihnachtsbaum\\Wihnachtsbaum.cpp",
+              "RelativeDocumentMoniker": "Wihnachtsbaum\\Wihnachtsbaum.cpp",
+              "ToolTip": "C:\\Users\\CSL\\source\\repos\\Weihnachtsbaum\\Wihnachtsbaum\\Wihnachtsbaum\\Wihnachtsbaum.cpp",
+              "RelativeToolTip": "Wihnachtsbaum\\Wihnachtsbaum.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-21T06:32:43.043Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
