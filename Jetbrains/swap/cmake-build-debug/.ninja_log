@@ -1,0 +1,9 @@
+# ninja log v6
+16	1249	7467124498826499	CMakeFiles/swap.dir/main.cpp.obj	a3edb86701b8842a
+1249	1421	7467124511156255	swap.exe	95037cf9f98fa6c1
+15	276	7467126931918712	CMakeFiles/swap.dir/main.cpp.obj.ddi	e0f32c0409bf0aec
+277	333	7467126934958703	CMakeFiles/swap.dir/CXX.dd	f25832a4da3038f0
+277	333	7467126934958703	C:/Users/CSL/source/repos/Github/Jetbrains/swap/cmake-build-debug/CMakeFiles/swap.dir/CXXModules.json	f25832a4da3038f0
+277	333	7467126934958703	CMakeFiles/swap.dir/main.cpp.obj.modmap	f25832a4da3038f0
+334	2743	7467126935098692	CMakeFiles/swap.dir/main.cpp.obj	9d4e5f09df02eb9b
+2743	3169	7467126959188699	swap.exe	219de5a3aa3379df

@@ -1,0 +1,11 @@
+# ninja log v6
+11	321	7467189569825271	CMakeFiles/untitled1.dir/main.cpp.obj.ddi	f313143067de9b20
+323	442	7467189574075241	CMakeFiles/untitled1.dir/CXX.dd	be59d15781420df9
+323	442	7467189574075241	C:/Users/CSL/source/repos/Github/Jetbrains/untitled1/cmake-build-debug/CMakeFiles/untitled1.dir/CXXModules.json	be59d15781420df9
+323	442	7467189574075241	CMakeFiles/untitled1.dir/main.cpp.obj.modmap	be59d15781420df9
+17	264	7467191788390264	CMakeFiles/untitled1.dir/main.cpp.obj.ddi	f313143067de9b20
+265	319	7467191790870266	CMakeFiles/untitled1.dir/CXX.dd	be59d15781420df9
+265	319	7467191790870266	C:/Users/CSL/source/repos/Github/Jetbrains/untitled1/cmake-build-debug/CMakeFiles/untitled1.dir/CXXModules.json	be59d15781420df9
+265	319	7467191790870266	CMakeFiles/untitled1.dir/main.cpp.obj.modmap	be59d15781420df9
+322	2353	7467191791440283	CMakeFiles/untitled1.dir/main.cpp.obj	7e35ae828cecc1d4
+2353	2746	7467191811750273	untitled1.exe	4ece593c3019cddc
