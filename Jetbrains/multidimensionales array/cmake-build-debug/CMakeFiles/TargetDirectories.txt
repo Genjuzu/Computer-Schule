@@ -1,0 +1,3 @@
+C:/Users/CSL/source/repos/Github/Jetbrains/multidimensionales array/cmake-build-debug/CMakeFiles/multidimensionales_array.dir
+C:/Users/CSL/source/repos/Github/Jetbrains/multidimensionales array/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/CSL/source/repos/Github/Jetbrains/multidimensionales array/cmake-build-debug/CMakeFiles/rebuild_cache.dir

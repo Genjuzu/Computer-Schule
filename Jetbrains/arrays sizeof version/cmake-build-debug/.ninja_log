@@ -1,0 +1,27 @@
+# ninja log v6
+4	1544	7467055412950329	CMakeFiles/arrays_sizeof_version.dir/main.cpp.obj	29e445afa36101f5
+14	1564	7467055413050340	CMakeFiles/arrays_sizeof_version.dir/funktionen.cpp.obj	aaacebddf7c5fd34
+1565	1744	7467055428560328	arrays_sizeof_version.exe	61cb5ce9500b1ef8
+20	1613	7467057571611601	CMakeFiles/arrays_sizeof_version.dir/funktionen.cpp.obj	aaacebddf7c5fd34
+29	1566	7467057892343180	CMakeFiles/arrays_sizeof_version.dir/funktionen.cpp.obj	aaacebddf7c5fd34
+11	1527	7467058621521761	CMakeFiles/arrays_sizeof_version.dir/main.cpp.obj	29e445afa36101f5
+18	1553	7467058621591742	CMakeFiles/arrays_sizeof_version.dir/funktionen.cpp.obj	aaacebddf7c5fd34
+1553	1737	7467058636941745	arrays_sizeof_version.exe	61cb5ce9500b1ef8
+22	1538	7467064891388400	CMakeFiles/arrays_sizeof_version.dir/main.cpp.obj	29e445afa36101f5
+29	1542	7467064891458392	CMakeFiles/arrays_sizeof_version.dir/funktionen.cpp.obj	aaacebddf7c5fd34
+1542	1720	7467064906578396	arrays_sizeof_version.exe	61cb5ce9500b1ef8
+23	1428	7467065596038413	CMakeFiles/arrays_sizeof_version.dir/funktionen.cpp.obj	aaacebddf7c5fd34
+1429	1599	7467065610098394	arrays_sizeof_version.exe	61cb5ce9500b1ef8
+21	1393	7467065879108419	CMakeFiles/arrays_sizeof_version.dir/funktionen.cpp.obj	aaacebddf7c5fd34
+1394	1560	7467065892838400	arrays_sizeof_version.exe	61cb5ce9500b1ef8
+20	1523	7467068162878646	CMakeFiles/arrays_sizeof_version.dir/main.cpp.obj	29e445afa36101f5
+27	1535	7467068162948424	CMakeFiles/arrays_sizeof_version.dir/funktionen.cpp.obj	aaacebddf7c5fd34
+1535	1689	7467068178028397	arrays_sizeof_version.exe	61cb5ce9500b1ef8
+26	1496	7467068541013925	CMakeFiles/arrays_sizeof_version.dir/main.cpp.obj	29e445afa36101f5
+1497	1655	7467068555724379	arrays_sizeof_version.exe	61cb5ce9500b1ef8
+26	1272	7467071476713933	CMakeFiles/arrays_sizeof_version.dir/main.cpp.obj	29e445afa36101f5
+1273	1458	7467071489173920	arrays_sizeof_version.exe	61cb5ce9500b1ef8
+11	1545	7467073260118974	CMakeFiles/arrays_sizeof_version.dir/main.cpp.obj	29e445afa36101f5
+12	1716	7467073871494070	CMakeFiles/arrays_sizeof_version.dir/main.cpp.obj	29e445afa36101f5
+20	1718	7467073871584071	CMakeFiles/arrays_sizeof_version.dir/funktionen.cpp.obj	aaacebddf7c5fd34
+1718	1872	7467073888560550	arrays_sizeof_version.exe	61cb5ce9500b1ef8
