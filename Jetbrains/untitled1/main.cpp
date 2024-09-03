@@ -1,24 +1,43 @@
 #include <iostream>
 using namespace std;
 
-void feldkopie(int a[], int b[], int size) {
-    for (int i = 0; i < size; i++) {
-        b[i] = a[i];
+double minimum(double* pntr, int size) {
+    // Setze den ersten Wert als Minimum
+    double min = *pntr;
+
+    // Durchlaufe das Array, um das tatsächliche Minimum zu finden
+    for(int i = 1; i < size; ++i) {
+        if(*pntr + i) < min) {
+            min = *(pntr + i);
+        }
     }
+
+    return min;
 }
 
 int main() {
-    int a[30] = {50, 10, 20, 32, 45, 2, 1, 2, 3, 4, 5, 6, 7, 856, 3, 2, 4, 53465, 3, 54, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}; // Beispielwerte
-    int b[30];
+    int size;
 
-    // Aufruf der Funktion zur Kopie des Arrays
-    feldkopie(a, b, 30);
+    // Benutzereingabe für die Array-Größe
+    cout << "Geben Sie die Anzahl der Elemente im Array ein: ";
+    cin >> size;
 
-    // Ausgabe des kopierten Arrays b, um zu überprüfen, ob die Kopie erfolgreich war
-    for (int i = 0; i < 30; i++) {
-        cout << b[i] << " ";
+    // Dynamische Allokation des Arrays
+    double* arr = new double[size];
+
+    // Benutzereingabe für die Array-Elemente
+    cout << "Geben Sie " << size << " Gleitkomma-Zahlen ein:" << std::endl;
+    for(int i = 0; i < size; ++i) {
+        cout << "Element " << i + 1 << ": ";
+        cin >> *(arr + i);
     }
-    cout << endl;
+
+    // Berechne und gib das Minimum aus
+    double minValue = minimum(arr, size);
+    cout << "Das Minimum im Array ist: " << minValue << std::endl;
+
+    // Speicher freigeben
+    delete[] arr;
 
     return 0;
 }

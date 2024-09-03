@@ -1,0 +1,5 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles\Pointer2.dir\main.cpp.obj: dyndep
+
+build CMakeFiles\Pointer2.dir\funktionen.h.cpp.obj: dyndep
+

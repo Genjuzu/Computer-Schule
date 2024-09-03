@@ -1,0 +1,5 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles\pointer.dir\main.cpp.obj: dyndep
+
+build CMakeFiles\pointer.dir\funktonen.cpp.obj: dyndep
+
