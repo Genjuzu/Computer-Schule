@@ -6,7 +6,10 @@ int main() {
     // ChangeValue();
     // Arrays();
     // Arrays2();
-    parameter(3, 4);
+    // parameter(3, 4);
+    // Tannebaum();
 
+    ArraySumme();
+    return 0;
 }
 

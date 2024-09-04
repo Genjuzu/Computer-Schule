@@ -12,10 +12,11 @@ int ChangeValue();
 
 void Arrays();
 void Arrays2();
+void ArraySumme();
 
 int parameter(int x, int y);
 
 int funktion();
-
+void Tannebaum();
 
 #endif //FUNKTIONEN_H_H
