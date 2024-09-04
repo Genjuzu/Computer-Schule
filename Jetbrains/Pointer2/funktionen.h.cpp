@@ -112,8 +112,19 @@ double minimum(double *ArrPntr, int n) {
     return min;
 }
 
+// Funktion zur Berechnung der groessten Abweichung
+double abweichung1(double *ArrPntr, int n) {
+    return maximum(ArrPntr,n) - durchschnitt(ArrPntr,n);
+}
+
+// Funktion zur Berechnung der groessten Abweichung
+double abweichung2(double *ArrPntr, int n) {
+    return durchschnitt(ArrPntr,n) - maximum(ArrPntr,n);
+}
+
+
 void ArraySumme() {
-        double Arrays[5];  // Statisches Array
+        double Arrays[5];  // Statisches Arrays
 
     // Schleife für die Eingabe der Zahle
         cout << "Bitte gebe 5 Zahlen ein.\n";
@@ -145,10 +156,15 @@ void ArraySumme() {
     // Berechnung des Minimums
     cout << endl << "Das Minimum der Summe ist: " << minimum(Arrays, sizeof(Arrays)/sizeof(Arrays[0]));
 
+    // Berechnung der groessten Differenz
+    cout << endl << "Die hoechste Abweichung vom Durchschnitt lautet: " << abweichung1(Arrays, sizeof(Arrays)/sizeof(Arrays[0])) << endl << endl;
+    // Berechnung der kleinsten Differenz
+    cout << endl << "Die kleinste Abweichung vom Durchschnitt lautet: " << abweichung2(Arrays, sizeof(Arrays)/sizeof(Arrays[0])) << endl << endl;
+
     system ("pause");
 }
 
-int parameter(int x, int y) {
+int parameter(int x, int y){
     int sum = x + y;             // Berechnung der Summe
     cout << "Die Summe ist: " << sum << endl;  // Ausgabe des Ergebnisses
     return sum;                  // Rückgabe der Summe (optional, falls du das Ergebnis weiter verwenden möchtest)
