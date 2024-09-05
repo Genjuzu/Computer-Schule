@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\Arrays_Pointer.dir\\funktionen.cpp.obj",
+            "outputs": [
+                "C:\\Users\\CSL\\source\\repos\\Github\\Jetbrains\\Übungen\\Arrays&Pointer\\cmake-build-debug\\vc140.pdb",
+                "CMakeFiles\\Arrays_Pointer.dir\\funktionen.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}
