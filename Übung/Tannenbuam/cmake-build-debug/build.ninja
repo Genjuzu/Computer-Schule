@@ -57,6 +57,14 @@ build CMakeFiles/Tannenbuam.dir/main.cpp.obj: CXX_COMPILER__Tannenbuam_unscanned
   TARGET_COMPILE_PDB = CMakeFiles\Tannenbuam.dir\
   TARGET_PDB = Tannenbuam.pdb
 
+build CMakeFiles/Tannenbuam.dir/funktionen.cpp.obj: CXX_COMPILER__Tannenbuam_unscanned_Debug C$:/Users/Wudu/OneDrive/Dokumente/GitHub/Cpp-Repo/Übung/Tannenbuam/funktionen.cpp || cmake_object_order_depends_target_Tannenbuam
+  DEP_FILE = CMakeFiles\Tannenbuam.dir\funktionen.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Tannenbuam.dir
+  OBJECT_FILE_DIR = CMakeFiles\Tannenbuam.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Tannenbuam.dir\
+  TARGET_PDB = Tannenbuam.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Tannenbuam
@@ -65,7 +73,7 @@ build CMakeFiles/Tannenbuam.dir/main.cpp.obj: CXX_COMPILER__Tannenbuam_unscanned
 #############################################
 # Link the executable Tannenbuam.exe
 
-build Tannenbuam.exe: CXX_EXECUTABLE_LINKER__Tannenbuam_Debug CMakeFiles/Tannenbuam.dir/main.cpp.obj
+build Tannenbuam.exe: CXX_EXECUTABLE_LINKER__Tannenbuam_Debug CMakeFiles/Tannenbuam.dir/main.cpp.obj CMakeFiles/Tannenbuam.dir/funktionen.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Tannenbuam.dir
