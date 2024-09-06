@@ -122,7 +122,7 @@ double abweichung2(double *ArrPntr, int n) {
     return durchschnitt(ArrPntr,n) - maximum(ArrPntr,n);
 }
 
-
+// Funktion zur Berechnung der Summe
 void ArraySumme() {
         double Arrays[5];  // Statisches Arrays
 

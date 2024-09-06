@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 Start testing: Sep 05 08:26 Mitteleuropäische Sommerzeit
 ----------------------------------------------------------
@@ -7,3 +8,8 @@ Start testing: Sep 04 20:36 Mitteleuropäische Sommerzeit
 ----------------------------------------------------------
 End testing: Sep 04 20:36 Mitteleuropäische Sommerzeit
 >>>>>>> ea61fd3c7562cf1f318b37978287325b68538321
+=======
+Start testing: Sep 05 07:03 Mitteleuropäische Sommerzeit
+----------------------------------------------------------
+End testing: Sep 05 07:03 Mitteleuropäische Sommerzeit
+>>>>>>> Stashed changes
