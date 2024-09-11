@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "C:/Users/CSL/source/repos/Github/Jetbrains/Mentor/cmake-build-debug",
+	"dir-cur-src" : "C:/Users/CSL/source/repos/Github/Jetbrains/Mentor",
+	"dir-top-bld" : "C:/Users/CSL/source/repos/Github/Jetbrains/Mentor/cmake-build-debug",
+	"dir-top-src" : "C:/Users/CSL/source/repos/Github/Jetbrains/Mentor",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/CSL/source/repos/Github/Jetbrains/Mentor/cmake-build-debug/CMakeFiles/Mentor.dir"
+}
