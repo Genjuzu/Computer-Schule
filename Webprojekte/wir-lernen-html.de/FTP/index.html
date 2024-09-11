@@ -12,40 +12,121 @@
                 padding: 0;
                 margin: 0;
             }
+
             body {
                 background-color: rgba(0, 0, 0, 0.84);
-                color: #d3297d;
                 font-family: Calibri;
                 line-height: 150%;
-                padding: 10px;
+                padding: 50px;
 
-            h4, h5, h6{
-                width: 200px;
+                h1 {color: rgba(21, 161, 135, 0.74);
+                    line-height: 130%;
+                    margin-top: 30px;
+                    margin-bottom: 35px;
                     text-align: justify; /* Blocktext */
-            }
+                    color: #FFFFFF;
+                    background: #333333;
+                    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+                }
 
-            }
-            h1, h3 {color: rgba(21, 161, 135, 0.74);
-                line-height: 130%;
-                margin-top: 30px;
-                margin-bottom: 35px;
-                text-align: justify; /* Blocktext */
-            }
 
-            div {
-                max-width: 1000px;
-                margin: 0 auto;
-                text-align: justify;
-            }
+                h2, h4, h5{
+                    color: #ffffff;
+                    width: 200px;
+                        text-align: justify; /* Blocktext */
+                }
 
-            p {
-                text-align: justify; /* Blocktext */
-            }
-            i{
-                color: #e36262;
-                font-style: normal;
-                font-size: 15px;
-            }
+                h6{
+                    width: 200px;
+                    text-align: justify; /* Blocktext */
+                    color: #000000;
+                    line-height: 100%;
+                    }
+                }
+
+                h3 {color: rgba(255, 0, 0, 0.74);
+                    line-height: 130%;
+                    margin-top: 30px;
+                    margin-bottom: 35px;
+                    text-align: justify; /* Blocktext */color: #FFFFFF;
+                    background: #333333;
+                    text-shadow: 0 -1px 1px #FFF, 0 -2px 10px #ff9800, 0 -10px 20px #8c8c8c, 0 -18px 40px #F00;
+                }
+
+                p, ol, ul, table{
+                    margin-bottom: 30px;
+                }
+                div {
+                    max-width: 1000px;
+                    margin: 0 auto;
+                    text-align: justify;
+                }
+
+                p {
+                    text-align: justify; /* Blocktext */
+                    color: #FFFFFF;
+                    text-shadow: 0 0 10px #FFFFFF;
+                }
+                .wichtig {
+                    font-weight: bold;
+                    color: #b08b8b;
+                    font-size: 15px;
+                    color: #FFFFFF;
+                    background: #333333;
+                    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+                }
+
+                p.richtig-wichtig{
+                    padding: 10px 15px;
+                    border-radius: 5px;
+                    border: 1px solid #000000;
+                    color: #ffffff;
+                    font-family: Arial;
+                    font-weight: bold;
+                    font-size: 10px;color: #FFFFFF;
+                    background: #912C22;
+                    text-shadow: 0 0 10px #FFFFFF;
+
+                    -webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, -48px 4px 22px 5px rgba(0,0,0,0);
+                    box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, -48px 4px 22px 5px rgba(0,0,0,0);
+                   }
+
+                p.link{
+                    padding: 10px 15px;
+                    max-width: 110px;
+                    border-radius: 5px;
+                    border: 1px solid #000000;
+                    color: #ffffff;
+                    font-family: Arial;
+                    font-weight: bold;
+                    font-size: 10px;color: #FFFFFF;
+                    background: #ff00dd;
+                    text-shadow: 0 0 10px #FFFFFF;
+                    -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+                    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+                }
+
+                .link {
+                    text-decoration: none;
+                    font-size: 30px;
+                }
+
+                .link:link {
+                    color: #ffffff;
+                }
+
+                .link:visited {
+                    color: #ff0000;
+                }
+
+                .link:hover, a:focus {
+                    color: blue;
+
+                }
+
+                a:active {
+                    color: yellowgreen;
+                }
         </style>
 </head>
 
@@ -58,27 +139,35 @@
         <h2>H2 ist in Seo wichtiger als H1</h2>
         <br>
         <h4>Das ist auch Text für gelaber ...</h4>
-        <h5>Das hier auch</h5>
-        <h6>Und das hier das Kleingedruckte, damit du eine Waschmaschine kaufst</h6>
-
+        <h5>Ab hier wird es irrelevant</h5>
+        <h6>Und das hier das Kleingedruckte. Das Lesen dieses Textes generiert bereits eine Einverständniserklärung, eine gebrauchte Miele Waschmachine aus dem Jahre 1999 zu erwerben. Ein Widerrufsrecht ist ausgeschlossen. Wir werden jeden Wideruf widerufen.</h6>
         <br><br>
 
-        <h3><b><u>Und nun folgt ein bisschen Blödsinn</u></b></h3>
+        <a href="https://www.ebay.de/itm/305536516228?var=0&mkevt=1&mkcid=1&mkrid=707-53477-19255-0&campid=5339024124&toolid=20006&_ul=de&gad_source=1&customid=0db757d47c9c0ef3a045ed875fc083e17987f54a">
+            <p class="link">Klick unbedingt hier! </p> </a>
 
-            <p>Jemand musste Josef K. verleumdet haben, denn ohne dass er <i><b>etwas Böses</b></i> getan hätte, wurde er eines Morgens verhaftet.
+        <br><br><br><br><br><br>
+
+
+        <h3><b><u>Es folgt eine ethisch richtig wichtige Dissertation der Philosophie des Bösen</u></b></h3>
+
+            <p class="richtig-wichtig">Der nachfolgende Text kann und wird nur nach Absprache mit ihrem Arzt oder Apotheker empfohlen. Jegliche Risiken und Nebenwirkungen sind umgehend polizeilich zu melden oder aber spätestens beim Frühstück mit einer Person Ihres Vertrauens zu begutachten.</p></p>
+            <br><br>
+
+        <p>Jemand musste Josef K. verleumdet haben, denn ohne dass er <span class="wichtig">etwas Böses</span> getan hätte, wurde er eines Morgens verhaftet.
                 »Wie ein Hund!«, sagte er, es war, als sollte die Scham ihn überleben.
             </p>
             <br>
-            <p>Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich <i><b>in seinem Bett</b></i> zu einem ungeheueren Ungeziefer verwandelt.
+            <p>Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich <span class="wichtig">in seinem Bett</span> zu einem ungeheueren Ungeziefer verwandelt.
                 Und es war ihnen wie eine Bestätigung ihrer neuen Träume und guten Absichten, als am Ziele ihrer Fahrt die Tochter als erste sich erhob und ihren jungen Körper dehnte.
             </p>
             <br>
-            <p>»Es <i><b>ist ein eigentümlicher Apparat</b></i>«, sagte der Offizier zu dem Forschungsreisenden und überblickte mit einem gewissermaßen bewundernden Blick den ihm doch wohlbekannten Apparat.
+            <p>»Es <span class="wichtig">ist ein eigentümlicher Apparat</span>«, sagte der Offizier zu dem Forschungsreisenden und überblickte mit einem gewissermaßen bewundernden Blick den ihm doch wohlbekannten Apparat.
                 Sie hätten noch ins Boot springen können, aber der Reisende hob ein schweres, geknotetes Tau vom Boden, drohte ihnen damit und hielt sie dadurch von dem Sprunge ab.
             </p>
             <br>
             <p>In den letzten Jahrzehnten ist das Interesse an Hungerkünstlern sehr zurückgegangen. Aber sie überwanden sich, umdrängten den Käfig und wollten sich gar nicht fortrühren.
-                Jemand musste Josef K. verleumdet haben, denn  <i><b>ohne dass er etwas Böses getan hätte, wurde er eines Morgens verhaftet.</b></i> »Wie ein Hund! « sagte er, es war, als sollte die Scham ihn überleben.
+                Jemand musste Josef K. verleumdet haben, denn  <span class="wichtig">ohne dass er etwas Böses getan hätte, wurde er eines Morgens verhaftet.</span> »Wie ein Hund!« sagte er, es war, als sollte die Scham ihn überleben.
                 Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich.
             </p>
     </div>
