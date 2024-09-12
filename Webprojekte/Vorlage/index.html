@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wir lernen HTML</title>
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+		}
+		
+		body {
+			background: #fff;
+			color: #202020;
+			font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+			font-size: 18px;
+			line-height: 150%;
+			padding: 10px;
+		}
+
+		h1, h2, h3, h4, h5, h6 {
+			color: rgb(15, 125, 133);
+		}	
+		
+		h1 {
+			margin-top: 30px;
+			margin-bottom: 35px;
+			font-size: 35px;
+			line-height: 115%;
+		}
+		
+		h2 {
+			margin-bottom: 10px;
+			font-size: 25px;
+			line-height: 110%;
+			color: #444;
+		}	
+
+		h3 {
+			margin-top: 40px;
+			margin-bottom: 10px;
+			font-size: 18px;
+			line-height: 110%;
+		}
+
+		p, ol, ul, table {
+			margin-bottom: 15px;
+		}
+		
+		div.wrapper {
+			max-width: 1100px;
+			margin: 0 auto;
+		}
+
+		.wichtig {
+			color: #7b3a0b;
+			font-weight: bold;
+			font-style: italic;
+		}
+
+		p.richtig-wichtig {
+			background: rgb(15, 125, 133);
+			border-radius: 10px;
+			border: solid 1px #000;
+			padding: 10px 15px;
+			margin-bottom: 15px;
+			color: #fff;
+			font-weight: bold;
+			-webkit-box-shadow: 3px 2px 13px 4px rgba(7,5,28,0.6); 
+			box-shadow: 3px 2px 13px 4px rgba(0,0,0,0.6);
+		}	
+
+		a {
+			text-decoration: none;
+		}
+
+		a:link {
+			color: red;
+		}
+
+		a:visited {
+			color: black;
+		}		
+		
+		a:hover, a:focus {
+			color: blue;
+		}	
+		
+		a:active {
+			color: yellowgreen;
+		}	
+		
+		p.richtig-wichtig a {
+			text-decoration: underline;
+			color: #fff;
+		}
+
+
+		a.btn {
+			background: #8F4205;
+			background: rgba(143, 66, 5, .7);
+			color: #000;
+			padding: 8px 20px;
+			border-radius: 4px;
+			box-shadow: 3px 2px 5px 4px rgba(0,0,0,0);
+			transition: all .5s cubic-bezier(.6,.04,.98,.34) 0s;
+		}
+
+		a.btn:hover {
+			background: rgba(143, 66, 5, 1);
+			color: #fff;
+			box-shadow: 3px 2px 5px 4px rgba(0,0,0,.6);
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+    	<h1>Meine erste Überschrift</h1>
+	
+		<!-- Ich bin ein HTML-Kommentar -->
+		<h2>Und das in HTML</h2>	
+		<p class="richtig-wichtig">Es gibt im Moment in diese Mannschaft, oh, einige Spieler vergessen ihnen Profi was sie sind. Ich lese nicht sehr viele <a href="https://google.de">Zeitungen</a>, aber ich habe gehört viele Situationen.</p>
+		<p>Erstens: wir haben nicht offensiv gespielt. Es gibt keine deutsche Mannschaft spielt offensiv und die Name offensiv wie <a href="https://bayern.de">Bayern</a> Letzte Spiel hatten wir in Platz drei Spitzen: Elber, Jancka und dann Zickler.</p>
+		
+		<h3>Wir müssen nicht vergessen Zickler</h3>
+		<p>Zickler ist eine Spitzen mehr, <span class="wichtig">Mehmet eh mehr Basler</span>. Ist klar diese Wörter, ist möglich verstehen, was ich hab gesagt? Danke. Offensiv, offensiv ist wie machen wir in Platz. Zweitens: ich habe erklärt mit diese</p>
+		<p>Zickler ist eine Spitzen mehr, <span class="wichtig">Mehmet eh mehr Basler</span>. Ist klar diese Wörter, ist möglich verstehen, was ich hab gesagt? Danke. Offensiv, offensiv ist wie machen wir in Platz. Zweitens: ich habe erklärt mit diese</p>
+	
+	
+		<a class="btn" href="https://bayern.de">Bayern</a>
+	</div>
+</body>
+</html>
