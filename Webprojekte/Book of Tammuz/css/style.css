@@ -92,21 +92,18 @@ html {
 
 /* Dropdown menu styling */
 .dropdown-content {
-  display: none; /* Standardmäßig versteckt */
+  display: none !important; /* Sicherstellen, dass das Menü standardmäßig versteckt ist */
   position: absolute;
   background-color: #333;
   min-width: 160px;
   z-index: 1;
   list-style-type: none;
   padding: 0;
+}
+}
 
-  /* Runde Ecken */
-  border-radius: 10px;
-
-  /* Leichter Glüheffekt */
-  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
-
-  transition: all 0.3s ease-in-out;
+.dropdown-content li {
+  display: block;
 }
 
 .dropdown-content a {
@@ -114,22 +111,21 @@ html {
   color: white;
   text-decoration: none;
   display: block;
-  border-radius: 10px; /* Runde Ecken auch für Links */
 }
 
 .dropdown-content a:hover {
   background-color: #555;
-  /* Glüheffekt auf Hover verstärken */
-  box-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
 }
 
-/* Dropdown anzeigen bei Hover */
+/* Optional: Dropdown mit einem Transition-Effekt */
+.dropdown-content {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Show the dropdown on hover */
 .dropdown:hover .dropdown-content {
-  display: block;
-  /* Glüheffekt leicht verstärken, wenn das Dropdown angezeigt wird */
-  box-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
+  display: block !important; /* Menü nur bei Hover anzeigen */
 }
-
 
 
 /* Hero Section */
