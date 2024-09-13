@@ -35,7 +35,7 @@ html {
 }
 
 .header-overlay {
-  background: rgba(0, 0, 0, 0.5); /* Adds a dark overlay for better text readability */
+  background: rgba(0, 0, 0, 0.4); /* Adds a dark overlay for better text readability */
   width: 100%;
   height: 100%;
   display: flex;
@@ -44,20 +44,22 @@ html {
 }
 
 
-
 .logo h1 {
   font-family: 'Cinzel', serif;
   font-size: 3em;
   color: #d4af37;
-  text-shadow: 0 0 10px #FFF, 0 0 15px #49ff18;
+  text-shadow: 0 0 10px #FFF, 0 0 15px #18ffae;
 }
 
 /* Adjust navigation bar positioning under the header */
 .main-menu {
+  background: rgba(0, 0, 0, 0.2); /* Adds a dark overlay for better text readability */
+  font-family: 'Cinzel', serif;
+  /* font-weight: bold;*/
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: rgba(0, 0, 0, 0.6);
+
   padding: 10px;
   text-align: center;
 }
@@ -72,6 +74,8 @@ html {
 
 .main-menu ul li {
   margin: 0 20px;
+  text-shadow: 0 0 5px #FFFFFF;
+  text-shadow: 0 0 21px rgba(33, 255, 214, 0.74);
 }
 
 .main-menu ul li a {
@@ -82,7 +86,7 @@ html {
 }
 
 .main-menu ul li a:hover {
-  color: #d4af37;
+  text-shadow: 0 0 5px #0f7a3a, 0 0 10px #FFF, 0 0 15px rgba(21, 161, 135, 0.74), 0 0 20px #00fff7, 0 0 30px rgba(34,97,70,0), 0 0 40px #49FF18, 0 0 55px rgba(34,97,70,0), 0 0 75px rgba(34,97,70,0);
 }
 
 /* Hero Section */
@@ -112,6 +116,7 @@ html {
   text-decoration: none;
   font-size: 1.2em;
   border-radius: 30px;
+  text-shadow: 0 0 5px rgba(21, 161, 135, 0.74);
   transition: all 1s  0s;
 }
 
