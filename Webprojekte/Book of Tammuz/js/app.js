@@ -1,27 +1,38 @@
 // Wait until the DOM is fully loaded
 document.addEventListener('DOMContentLoaded', function() {
 
+  const dropdownBtn = document.querySelector('.dropdown-btn');
+  const dropdownContent = document.querySelector('.dropdown-content');
+
+  dropdownBtn.addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent default link behavior
+    dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+  });
+
+  // Optionally, hide the dropdown when clicking outside of it
+  document.addEventListener('click', function(event) {
+    if (!dropdownBtn.contains(event.target) && !dropdownContent.contains(event.target)) {
+      dropdownContent.style.display = 'none';
+    }
+  });
+
   // 1. Smooth Scrolling for Internal Links
   const links = document.querySelectorAll('a[href^="#"]');
   for (const link of links) {
-    link.addEventListener('click', smoothScroll);
-  }
-
-  function smoothScroll(event) {
-    event.preventDefault();
-    const targetId = this.getAttribute('href');
-    const targetElement = document.querySelector(targetId);
-    window.scrollTo({
-      top: targetElement.offsetTop,
-      behavior: 'smooth'
+    link.addEventListener('click', function(event) {
+      event.preventDefault();
+      const targetId = this.getAttribute('href');
+      const targetElement = document.querySelector(targetId);
+      window.scrollTo({
+        top: targetElement.offsetTop,
+        behavior: 'smooth'
+      });
     });
   }
 
-  // 2. Scroll-Triggered Fade-In Effect for sections
+  // 3. Scroll-Triggered Fade-In Effect for sections
   const sections = document.querySelectorAll('section');
-  window.addEventListener('scroll', revealSections);
-
-  function revealSections() {
+  window.addEventListener('scroll', function() {
     const windowHeight = window.innerHeight;
     for (const section of sections) {
       const sectionTop = section.getBoundingClientRect().top;
@@ -29,9 +40,9 @@ document.addEventListener('DOMContentLoaded', function() {
         section.classList.add('visible');
       }
     }
-  }
+  });
 
-  // 3. Hero Text Glow Effect on Hover
+  // 4. Hero Text Glow Effect on Hover
   const heroText = document.querySelector('.hero-content h2');
   heroText.addEventListener('mouseover', function() {
     heroText.classList.add('glow');
@@ -41,6 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 });
+
 
 // Scroll triggered fade-in effect CSS class
 document.head.insertAdjacentHTML('beforeend', `

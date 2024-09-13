@@ -3,13 +3,13 @@
 /* Override Base HTML Styles */
 html {
   color: #f4f4f4;
-  font-family: 'Arial', sans-serif;
+  font-family: "AngsanaUPC", serif;
   background-color: #000000;
 }
 
 /* Custom Header with Background Image */
 .custom-header {
-  background-image: url('/img/log.jpg'); /* Ensure this is the correct path to your image */
+  background-image: url('/img/GIF.gif'); /* Ensure this is the correct path to your image */
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -22,7 +22,7 @@ html {
 }
 
 .custom-header:hover {
-  background-image: url('/img/log.jpg');  /* Ensure this is the correct path to your image */
+  background-image: url('/img/GIF.gif');  /* Ensure this is the correct path to your image */
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -35,7 +35,8 @@ html {
 }
 
 .header-overlay {
-  background: rgba(0, 0, 0, 0.4); /* Adds a dark overlay for better text readability */
+  background: rgba(0, 0, 0, 0.2
+  ); /* Adds a dark overlay for better text readability */
   width: 100%;
   height: 100%;
   display: flex;
@@ -45,7 +46,7 @@ html {
 
 
 .logo h1 {
-  font-family: 'Cinzel', serif;
+  font-family: "AngsanaUPC", serif;
   font-size: 3em;
   color: #d4af37;
   text-shadow: 0 0 10px #FFF, 0 0 15px #18ffae;
@@ -54,7 +55,7 @@ html {
 /* Adjust navigation bar positioning under the header */
 .main-menu {
   background: rgba(0, 0, 0, 0.2); /* Adds a dark overlay for better text readability */
-  font-family: 'Cinzel', serif;
+  font-family: "AngsanaUPC", serif;
   /* font-weight: bold;*/
   position: absolute;
   bottom: 0;
@@ -86,8 +87,50 @@ html {
 }
 
 .main-menu ul li a:hover {
-  text-shadow: 0 0 5px #0f7a3a, 0 0 10px #FFF, 0 0 15px rgba(21, 161, 135, 0.74), 0 0 20px #00fff7, 0 0 30px rgba(34,97,70,0), 0 0 40px #49FF18, 0 0 55px rgba(34,97,70,0), 0 0 75px rgba(34,97,70,0);
+  text-shadow: 0 0 5px #00ffda, 0 0 10px rgba(21, 161, 135, 0.74), 0 0 15px rgba(21, 161, 135, 0.74), 0 0 20px #00fff7, 0 0 30px rgba(34,97,70,0), 0 0 40px #49FF18, 0 0 55px rgba(34,97,70,0), 0 0 75px rgba(34,97,70,0);
 }
+
+/* Dropdown menu styling */
+.dropdown-content {
+  display: none; /* Standardmäßig versteckt */
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  z-index: 1;
+  list-style-type: none;
+  padding: 0;
+
+  /* Runde Ecken */
+  border-radius: 10px;
+
+  /* Leichter Glüheffekt */
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+
+  transition: all 0.3s ease-in-out;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  border-radius: 10px; /* Runde Ecken auch für Links */
+}
+
+.dropdown-content a:hover {
+  background-color: #555;
+  /* Glüheffekt auf Hover verstärken */
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
+}
+
+/* Dropdown anzeigen bei Hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  /* Glüheffekt leicht verstärken, wenn das Dropdown angezeigt wird */
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
+}
+
+
 
 /* Hero Section */
 .hero {
@@ -105,20 +148,28 @@ html {
 .hero-content h2 {
   font-size: 3em;
   color: #f4f4f4;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  text-shadow: 0 0 2px #FFFFFF, 0px 0px 2px #59EAFF, 0px 0px 8px #4C8FFF;
+
 }
+
 
 .button {
   margin-top: 20px;
   padding: 10px 30px;
-  background-color: #d4af37;
-  color: #111;
+  background-color: rgba(21, 161, 135, 0.74); /* Fallback background color */
+  background-image: url('/img/but1.png'); /* Bild einfügen */
+  background-size: cover; /* Bild auf die Button-Größe anpassen */
+  background-position: center; /* Bild zentrieren */
+  color: #ffffff;
   text-decoration: none;
   font-size: 1.2em;
   border-radius: 30px;
-  text-shadow: 0 0 5px rgba(21, 161, 135, 0.74);
-  transition: all 1s  0s;
+  text-shadow: 0 0 1px #FFFFFF, 0px 0px 1px #59EAFF, 0px 0px 1px #4C8FFF;
+  -webkit-box-shadow: rgba(21, 161, 135, 0.74) 0 -1px 4px, rgba(21, 161, 135, 0.74) 0 -2px 10px, rgba(21, 161, 135, 0.74) 0 -10px 20px, 5px 5px 15px 5px rgba(0,0,0,0);
+  box-shadow: rgba(21, 161, 135, 0.74) 0 -1px 4px, rgba(21, 161, 135, 0.74) 0 -2px 10px, rgba(11, 82, 67, 0.74) 0 -10px 20px, 5px 5px 15px 5px rgba(0,0,0,0);
+  transition: all 1s 0s;
 }
+
 
 .button:hover {
   background-color: #f0c14b;
@@ -139,6 +190,7 @@ html {
 .about-section h2 {
   font-size: 2.5em;
   margin-bottom: 20px;
+  text-shadow: 0 0 10px #FFFFFF, 0px 0px 8px #59EAFF;
 }
 
 .about-section p {
