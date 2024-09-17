@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="de">
 
 <head>
   <meta charset="utf-8">
@@ -24,36 +24,97 @@
 <body>
 
 <header class="custom-header">
+
   <div class="header-overlay">
 
   </div>
+
   <nav class="main-menu">
     <ul>
-      <li><a href="#home">HOME</a></li>
+      <li><a href="#home">START</a></li>
+
+      <!-- Dropdown für Kapitel -->
       <li class="dropdown">
         <a href="#chapters" class="dropdown-btn">KAPITEL</a>
         <ul class="dropdown-content">
-          <li><a href="#chapter1">Kapitel 1</a></li>
-          <li><a href="#chapter2">Kapitel 2</a></li>
-          <li><a href="#chapter3">Kapitel 3</a></li>
-          <li><a href="#chapter4">Kapitel 4</a></li>
-          <li><a href="#chapter5">Kapitel 5</a></li>
+          <li><a href="#chapter1">00-09</a></li>
+          <li><a href="#chapter2">10-19</a></li>
+          <li><a href="#chapter3">20-29</a></li>
+          <li><a href="#chapter4">30-39</a></li>
+          <li><a href="#chapter5">40-49</a></li>
+          <li><a href="#chapter6">50-59</a></li>
+          <li><a href="#chapter7">60-69</a></li>
+          <li><a href="#chapter8">70-79</a></li>
+          <li><a href="#chapter9">80-89</a></li>
+          <li><a href="#chapter10">90-99</a></li>
         </ul>
       </li>
-      <li><a href="#extras">EXTRAS</a></li>
-      <li><a href="#about">WERK & AUTOR</a></li>
-      <li><a href="#impressum">IMPRESSUM</a></li>
+
+      <!-- Dropdown für Extras -->
+      <li class="dropdown">
+        <a href="#extras" class="dropdown-btn">EXTRAS</a>
+        <ul class="dropdown-content">
+          <li><a href="#bonus1">ARTWORK</a></li>
+          <li><a href="#bonus2">WIKI</a></li>
+        </ul>
+      </li>
+
+      <!-- Dropdown für Soundtrack -->
+      <li class="dropdown">
+        <a href="#soundtrack" class="dropdown-btn">SOUNDTRACK</a>
+        <ul class="dropdown-content">
+          <li><a href="#track1">SPOTIFY</a></li>
+          <li><a href="#track2">YOUTUBE</a></li>
+        </ul>
+      </li>
+
+      <!-- Dropdown für About -->
+      <li class="dropdown">
+        <a href="#about" class="dropdown-btn">ABOUT</a>
+        <ul class="dropdown-content">
+          <li><a href="#team">Team</a></li>
+          <li><a href="#history">History</a></li>
+        </ul>
+      </li>
     </ul>
   </nav>
 
 
-
 </header>
 
-<section class="hero">
+<section class="spacer2">
+
+</section>
+
+<section class="spacer">
   <div class="hero-content">
-    <h2>Entfessel die okkulten Mysterien</h2>
-    <a href="#chapters" class="button">Wage die Reise</a>
+    <h1>WILLKOMMEN IN NARAKKA</h1>
+  </div>
+</section>
+
+<div class="audio-player">
+  <audio id="audio" preload="auto">
+    <source src="/musik/Northman.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+  <div class="controls">
+    <button id="playPause" class="play-btn"></button>
+    <input type="range" id="seekBar" value="0" max="100">
+    <button id="muteUnmute" class="mute-btn"></button>
+  </div>
+
+  <!-- Button für Benutzerinteraktion -->
+  <div id="startAudioContainer" style="position: fixed; top: 0; left: 0; width: 1%; height: 1%;; display: flex; align-items: center; justify-content: center;">
+  </div>
+</div>
+
+
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h2>WILLKOMMEN IN NARAKA</h2>
+    <br><br><br><br><br><br>
+    <a href="#chapters" class="button">BEGINNE DIE REISE</a>
   </div>
 </section>
 
@@ -70,6 +131,8 @@
       Welcome to the world of hidden knowledge and alchemical mysteries. The Occult Chronicles is a serialized graphic novel
       that delves into the arcane arts. Each chapter reveals more about the ancient secrets that have been forgotten by the world.
     </p>
+
+    <li><a href="#home">START</a></li>
   </section>
 
   <footer>

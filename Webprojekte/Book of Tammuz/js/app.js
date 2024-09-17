@@ -1,19 +1,70 @@
 // Wait until the DOM is fully loaded
 document.addEventListener('DOMContentLoaded', function() {
+  const dropdownBtns = document.querySelectorAll('.dropdown-btn');
 
-  const dropdownBtn = document.querySelector('.dropdown-btn');
-  const dropdownContent = document.querySelector('.dropdown-content');
+  // Setze sicher, dass alle Dropdowns beim Seitenaufruf ausgeblendet sind
+  const dropdowns = document.querySelectorAll('.dropdown-content');
+  dropdowns.forEach(dropdown => {
+    dropdown.style.display = 'none';
 
-  dropdownBtn.addEventListener('click', function(event) {
-    event.preventDefault(); // Prevent default link behavior
-    dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+    // Teile die Menüpunkte auf zwei Spalten auf
+    const items = Array.from(dropdown.children);
+    const halfway = Math.ceil(items.length / 2);
+
+    // Erstelle zwei Spalten-Container
+    const col1 = document.createElement('div');
+    const col2 = document.createElement('div');
+    col1.style.display = 'inline-block';
+    col2.style.display = 'inline-block';
+    col1.style.width = '50%';
+    col2.style.width = '50%';
+
+    // Füge die erste Hälfte der Elemente in die erste Spalte ein
+    items.slice(0, halfway).forEach(item => {
+      col1.appendChild(item);
+    });
+
+    // Füge die zweite Hälfte der Elemente in die zweite Spalte ein
+    items.slice(halfway).forEach(item => {
+      col2.appendChild(item);
+    });
+
+    // Leere das Dropdown und füge die beiden Spalten hinzu
+    dropdown.innerHTML = '';
+    dropdown.appendChild(col1);
+    dropdown.appendChild(col2);
   });
 
-  // Optionally, hide the dropdown when clicking outside of it
+  dropdownBtns.forEach(function(btn) {
+    btn.addEventListener('click', function(event) {
+      event.preventDefault(); // Verhindert die Standardaktion des Links
+      const dropdownContent = btn.nextElementSibling;
+
+      if (dropdownContent.style.display === 'block') {
+        // Ausblenden mit Slide-Up-Effekt
+        dropdownContent.style.maxHeight = '0'; // Schließe das Dropdown mit Animation
+        setTimeout(() => {
+          dropdownContent.style.display = 'none'; // Verstecke es nach der Animation
+        }, 500); // Warte bis die Animation fertig ist (entspricht der transition-Dauer im CSS)
+      } else {
+        // Einblenden mit Slide-Down-Effekt
+        dropdownContent.style.display = 'block'; // Zeige das Menü
+        dropdownContent.style.maxHeight = dropdownContent.scrollHeight + 'px'; // Maximalhöhe auf den Inhalt setzen für Slide-Down
+      }
+    });
+  });
+
+  // Schließt das Dropdown, wenn außerhalb geklickt wird
   document.addEventListener('click', function(event) {
-    if (!dropdownBtn.contains(event.target) && !dropdownContent.contains(event.target)) {
-      dropdownContent.style.display = 'none';
-    }
+    dropdownBtns.forEach(function(btn) {
+      const dropdownContent = btn.nextElementSibling;
+      if (!btn.contains(event.target) && !dropdownContent.contains(event.target)) {
+        dropdownContent.style.maxHeight = '0'; // Slide-Up-Animation
+        setTimeout(() => {
+          dropdownContent.style.display = 'none'; // Display auf 'none' setzen nach der Animation
+        }, 500); // Warte, bis die Animation abgeschlossen ist
+      }
+    });
   });
 
   // 1. Smooth Scrolling for Internal Links
@@ -42,6 +93,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
+
+
   // 4. Hero Text Glow Effect on Hover
   const heroText = document.querySelector('.hero-content h2');
   heroText.addEventListener('mouseover', function() {
@@ -60,7 +113,7 @@ document.head.insertAdjacentHTML('beforeend', `
     .visible {
       opacity: 1;
       transform: translateY(0);
-      transition: opacity 1s ease, transform 1s ease;
+      transition: opacity 3s ease, transform 3s ease;
     }
 
     section {
@@ -88,3 +141,52 @@ document.head.insertAdjacentHTML('beforeend', `
     }
   </style>
 `);
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const audio = document.getElementById('audio');
+  const playPauseBtn = document.getElementById('playPause');
+  const muteUnmuteBtn = document.getElementById('muteUnmute');
+  const seekBar = document.getElementById('seekBar');
+
+  // Versuche das Autoplay zu aktivieren
+  audio.play().catch(function(error) {
+    // Falls das Autoplay blockiert wird, kannst du hier eine Meldung anzeigen oder andere Maßnahmen ergreifen
+    console.log('Autoplay wurde blockiert.');
+  });
+
+  // Play/Pause-Funktion
+  playPauseBtn.addEventListener('click', function () {
+    if (audio.paused) {
+      audio.play();
+      playPauseBtn.classList.add('playing');
+    } else {
+      audio.pause();
+      playPauseBtn.classList.remove('playing');
+    }
+  });
+
+  // Mute/Unmute-Funktion
+  muteUnmuteBtn.addEventListener('click', function () {
+    if (audio.muted) {
+      audio.muted = false;
+      muteUnmuteBtn.classList.remove('muted');
+    } else {
+      audio.muted = true;
+      muteUnmuteBtn.classList.add('muted');
+    }
+  });
+
+  // Fortschrittsleiste aktualisieren
+  audio.addEventListener('timeupdate', function () {
+    const value = (audio.currentTime / audio.duration) * 100;
+    seekBar.value = value;
+  });
+
+  // Fortschrittsleiste für den Benutzer
+  seekBar.addEventListener('input', function () {
+    const time = (seekBar.value / 100) * audio.duration;
+    audio.currentTime = time;
+  });
+});

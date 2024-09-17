@@ -1,0 +1,148 @@
+<!doctype html>
+<html class="no-js" lang="de">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kapitel 1</title>
+  <!-- Gemeinsame CSS für alle Kapitel -->
+  <link rel="stylesheet" href="/sites/kapitel/style.css">
+
+  <meta name="description" content="A serialized graphic novel that delves into alchemical and occult mysteries.">
+
+  <meta property="og:title" content="The Occult Chronicles">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="path_to_image.jpg">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#111">
+</head>
+
+<body>
+
+<header class="custom-header">
+
+  <div class="header-overlay">
+
+  </div>
+
+  <nav class="main-menu">
+    <ul>
+      <li><a href="#home">START</a></li>
+
+      <!-- Dropdown für Kapitel -->
+      <li class="dropdown">
+        <a href="#chapters" class="dropdown-btn">KAPITEL</a>
+        <ul class="dropdown-content">
+          <li><a href="#chapter1">00-09</a></li>
+          <li><a href="#chapter2">10-19</a></li>
+          <li><a href="#chapter3">20-29</a></li>
+          <li><a href="#chapter4">30-39</a></li>
+          <li><a href="#chapter5">40-49</a></li>
+          <li><a href="#chapter6">50-59</a></li>
+          <li><a href="#chapter7">60-69</a></li>
+          <li><a href="#chapter8">70-79</a></li>
+          <li><a href="#chapter9">80-89</a></li>
+          <li><a href="#chapter10">90-99</a></li>
+        </ul>
+      </li>
+
+      <!-- Dropdown für Extras -->
+      <li class="dropdown">
+        <a href="#extras" class="dropdown-btn">EXTRAS</a>
+        <ul class="dropdown-content">
+          <li><a href="#bonus1">ARTWORK</a></li>
+          <li><a href="#bonus2">WIKI</a></li>
+        </ul>
+      </li>
+
+      <!-- Dropdown für Soundtrack -->
+      <li class="dropdown">
+        <a href="#soundtrack" class="dropdown-btn">SOUNDTRACK</a>
+        <ul class="dropdown-content">
+          <li><a href="#track1">SPOTIFY</a></li>
+          <li><a href="#track2">YOUTUBE</a></li>
+        </ul>
+      </li>
+
+      <!-- Dropdown für About -->
+      <li class="dropdown">
+        <a href="#about" class="dropdown-btn">ABOUT</a>
+        <ul class="dropdown-content">
+          <li><a href="#team">Team</a></li>
+          <li><a href="#history">History</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+
+</header>
+
+<section class="spacer">
+  <div class="hero-content">
+  </div>
+</section>
+
+<div class="audio-player">
+  <audio id="audio" preload="auto">
+    <source src="/musik/Northman.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+  <div class="controls">
+    <button id="playPause" class="play-btn"></button>
+    <input type="range" id="seekBar" value="0" max="100">
+    <button id="muteUnmute" class="mute-btn"></button>
+  </div>
+
+  <!-- Button für Benutzerinteraktion -->
+  <div id="startAudioContainer" style="position: fixed; top: 0; left: 0; width: 1%; height: 1%;; display: flex; align-items: center; justify-content: center;">
+  </div>
+</div>
+
+
+<!-- Kapitelcontainer -->
+<div id="chapter-container">
+  <!-- Erstes Kapitel -->
+  <section class="chapter">
+    <h2>INITIATION</h2>
+    <br><br>
+
+    <p>In einem schlagartigen Aufblitzen der Ewigkeit, wo selbst das Licht zu einem Flüstern erstirbt,
+    </p><br><p>
+    fand er sich unvermittelt aus dem Nichts gerissen -
+    erwachend im Herzen einer undurchdringlichen Finsternis.
+    </p><br><p>
+      Ein Schweigen, so dicht gewoben, dass es schien, als könnte es die Zeit selbst zum Erliegen bringen, umhüllte ihn mit einer greifbaren Präsenz; füllte ihn mit einer namenlosen Furcht.
+  </p><br><p>
+      Zunächst war es lediglich die Berührung des kalten Bodens unter seinen Füßen, welche ihm die bittersüße Gewissheit seiner Existenz verlieh.
+    </p><br><p>
+      Doch nach und nach, als würde er sich behutsam aus einem dichten Nebel lösen, begann er, die Feuchtigkeit in der Luft zu spüren, den leisen Widerhall eines Tropfens zu vernehmen, zerschellend auf hartem Gestein.
+  </p><br><p>
+      Die Dunkelheit, die ihn sovollständig umfing, war mehr, als die bloße Abwesenheit von Licht; sie pulsierte in den Tiefeneiner Welt, die unlängst vergessen schien.
+  </p><br><p>
+      Diese ersten Eindrücke waren wie Funken, waren wie Funken in derallumfassenden Dunkelheit, die plötzlich ein schwaches grünes Leuchtenentfachten.
+  </p><br><p>
+      Er nahm einen tiefen Atemzug, füllte seine Lungen mit der ihn umgebenden Dunkelheit und wagte schließlich einen Schritt. Ein Hall erklang, als käme er von allen Seiten. Er lauschte, schätzte die Größe des Gewölbes anhand des Halls ab.
+  </p><br><p>
+      Er wagte einen weiteren Schritt. Dann noch einen, und kurz darauf erhaschte er einen Blick auf eine Wand vor sich, verziert mit unbekannten Zeichen.</p>
+  </section>
+</div>
+
+<!-- Loading Spinner -->
+<div id="loading" style="display: none;">Lädt...</div>
+
+
+<!-- Gemeinsames JavaScript für alle Kapitel -->
+<script src="/sites/kapitel/app.js"></script>
+</body>
+
+<footer>
+  <p>&copy; 2024 The Book Of Tammuz by Wudu Genjuzu | All rights reserved.</p>
+  </footer>
+</html>
