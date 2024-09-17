@@ -151,35 +151,23 @@ void mixstring(char *ziel, char *quelle1, char *quelle2) {           // Übung 5
     ziel[i] = '\0';   //Sonst fehlt die Nullstelle im Ziel
 }       // Übung 5 - Richtig
 
-
-
-void ostrstr(char *satz, char *wort){
-    int s = 0;
-    int w = 0;
-    int wordsize = 0;
-    int proof = 0;
-    int zaehler = 1;
-
-    while(satz[s] || wordsize == zaehler) {
-        while(wort[wordsize]) {
-        wordsize++;
-        }
-        cout << "Das Wort hat " << wordsize << " Zeichen. Mal sehen, wo diese Anzahl an gleichen Zeichen hintereinander vorkommen." << endl << endl;
-
-        while(wort[w] != satz[s]) {
-        w = 0;
-        zaehler++;
-        }
-
-        while(wort[w] == satz[s]) {
-            w++;
-
-        }
-        s++;
-        cout << zaehler << endl;
-    }
+int länge (char *zaehler) {
+    int a = 0;
+    while (zaehler[a++]);
+    return(a-1);
 }
 
+
+int ostrstr(char *satz, char *wort){
+    int i;
+    int s;
+    int indx;
+
+        for(i=0 ; i < (länge(satz) -länge(wort)); i++) {
+
+
+    }
+}
 
 // Ausführbare Funktionen
 void Übung1(){
@@ -272,6 +260,7 @@ void arrayWhile() {
         i++;
     }
 }
+
 
 
 
