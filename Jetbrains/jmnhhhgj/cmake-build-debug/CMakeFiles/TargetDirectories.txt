@@ -1,0 +1,3 @@
+C:/Users/CSL/source/repos/Github/Jetbrains/jmnhhhgj/cmake-build-debug/CMakeFiles/jmnhhhgj.dir
+C:/Users/CSL/source/repos/Github/Jetbrains/jmnhhhgj/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/CSL/source/repos/Github/Jetbrains/jmnhhhgj/cmake-build-debug/CMakeFiles/rebuild_cache.dir
