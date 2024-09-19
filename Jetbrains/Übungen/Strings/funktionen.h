@@ -2,7 +2,6 @@
 #include <iomanip>
 using namespace std;
 
-
 #ifndef FUNKTIONEN_H
 #define FUNKTIONEN_H
 
@@ -17,6 +16,9 @@ void Übung3();
 void Übung4();
 void Übung5();
 void Übung6();
+void Übung7();
+void Übung8();
+void Übung9();
 
 
 //Mathematische Funktionen
@@ -29,6 +31,8 @@ void arrayWhile();
 void mixstring();
 int ostrstr();
 int laenge();
-
+void leftstring();
+void rightstr();
+void midstr();
 
 #endif //FUNKTIONEN_H

@@ -25,26 +25,25 @@ void verdoppeln(int *zahl, int groesse) {
     }
 }
 
-
-
 void faklutaet() {
-    int i;
     int n;
-
-    int multiplikation = 2;
+    int multiplikation = 1;
     int ergebnis = 1;
 
     cout << "Bitte gebe eine Zahl fuer die Faklultaet an : ";
     cin >> n;
 
-    for (i = 1; i < n; i++) {
+    while (n) {
+        n--;
         ergebnis = ergebnis * multiplikation;
-
         multiplikation++;
     }
-    cout << endl << endl << ergebnis;
 
+    cout << endl << endl << ergebnis;
 }
+
+
+
 
 
 

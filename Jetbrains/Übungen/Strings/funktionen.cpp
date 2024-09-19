@@ -46,7 +46,6 @@ void decryption(char *ziel){
     ziel[j]=0;
 }
 
-
 // Mathematische Funktionen
 void WhileCpy(char *ziel, char *quelle) {
     ///WHILE SCHLEIFE
@@ -56,6 +55,7 @@ void WhileCpy(char *ziel, char *quelle) {
         j++;
     }
     ziel[j] = '\0';   //Sonst fehlt die Nullstelle im Ziel
+
 }                              // Übung 1 - Richtig
 void ForCpy(char *ziel, char *quelle){
     //FOR-SCHLEIFE
@@ -80,7 +80,7 @@ int ostrlen(char *ziel) {
         i++;
     }
     return i;
-}                                           // Übung 2 - Richtig
+}// Übung 2 - Richtig
 int laenge (char *zaehler) {
     int a = 0;
     while (zaehler[a++]);
@@ -156,6 +156,42 @@ void mixstring(char *ziel, char *quelle1, char *quelle2) {           // Übung 5
     ziel[i] = '\0';   //Sonst fehlt die Nullstelle im Ziel
 }       // Übung 5 - Richtig
 
+void leftst(char* ziel, const char* quelle, int anz) {
+    // Überprüfen, ob die Anzahl der zu kopierenden Zeichen größer ist als die Länge des Quellstrings
+    int laenge = strlen(quelle);
+    if (anz > laenge) {
+        anz = laenge; // Wenn mehr Zeichen kopiert werden sollen, als vorhanden sind, passe 'anz' an
+    }
+
+    // Kopiere die ersten 'anz' Zeichen vom Quellstring in den Zielstring
+    for (int i = 0; i < anz; i++) {
+        ziel[i] = quelle[i];
+    }
+
+    // Füge die Endekennung '\0' (Null-Terminator) hinzu
+    ziel[anz] = '\0';
+}
+
+void leftstring(char *ziel, char *quelle, int anz) {
+    int i = 0;
+    // Bei der ersten Schleife sind stet
+    while (ziel[i] && quelle[i]) {
+
+        while (i < anz) {
+            ziel[i] = quelle[i];
+            cout << ziel[i];
+            i++;
+        }
+
+        while (ziel[i]) {
+            cout << ziel[i];
+            i++;
+        }
+    }
+
+    cout << endl << endl;
+    ziel[i] = '\0';
+}
 
 
 
@@ -186,8 +222,26 @@ int ostrstr(char *satz, char *wort){
 
     return index;
 }
+void rightstr(char* ziel, const char* quelle, int anz) {
+    // Länge des Quellstrings
+    int laenge = strlen(quelle);
 
+    // Überprüfen, ob die Anzahl der zu kopierenden Zeichen größer ist als die Länge des Quellstrings
+    if (anz > laenge) {
+        anz = laenge; // Wenn mehr Zeichen kopiert werden sollen, als vorhanden sind, passe 'anz' an
+    }
 
+    // Startpunkt für das Kopieren der letzten 'anz' Zeichen
+    int start = laenge - anz;
+
+    // Kopieren die letzten 'anz' Zeichen vom Quellstring in den Zielstring
+    for (int i = 0; i < anz; i++) {
+        ziel[i] = quelle[start + i];
+    }
+
+    // die Endekennung '\0' (Null-Terminator)
+    ziel[anz] = '\0';
+}
 
 
 // Ausführbare Funktionen
@@ -257,6 +311,43 @@ void Übung6() {
     ostrstr(String2, String1);
 }
 
+void Übung7() {
+    char quelle[100];
+    char ziel[100]; // Zielstring sollte groß genug sein, um die Zeichen aufzunehmen
+    int anz;
+
+    cout << "Bitte gebe ein Wort ein : ";
+    cin.getline(quelle,80);
+
+    cout << "Bitte gebe ein zweites Wort ein : ";
+    cin.getline(ziel,80);
+
+    cout << "Bitte gebe nun eine Zahl an. Diese Zahl bestimmt die Anzahl der Buchstaben, die in das zweite Wort kopiert werden : ";
+    cin >> anz;
+
+
+    // Aufruf der Funktion leftstr
+    leftstring(ziel, quelle, anz);
+
+}
+
+
+
+
+void Übung8() {
+    const char quelle[] = "HalloWelt";
+    char ziel[100]; // Zielstring sollte groß genug sein, um die Zeichen aufzunehmen
+    int anz = 4;
+
+    // Aufruf der Funktion rightstr
+    rightstr(ziel, quelle, anz);
+
+    // Ausgabe des Zielstrings zur Kontrolle
+    std::cout << "Zielstring: " << ziel << std::endl;
+}
+void Übung9() {
+}
+
 
 // EXE Cryptographie
 void crypto() {
@@ -271,8 +362,6 @@ void decrypt() {
     cin.getline(decrypt,500);
     decryption(decrypt);
 }
-
-
 void arrayWhile() {
     int i = 0;
     int a[] = {1,2,3,4,5,6};
@@ -282,6 +371,12 @@ void arrayWhile() {
         i++;
     }
 }
+
+void midstr() {
+}
+
+
+
 
 
 

@@ -8,10 +8,13 @@ int main() {
 
         // Übung1();
         // Übung2();
-         // Übung3();
+        // Übung3();
         // Übung4();
         // Übung5();
-        Übung6();
+        // Übung6();
+         Übung7();
+        // Übung8();
+        //Übung9();
 
 
         // crypto();
