@@ -28,7 +28,7 @@ void ForCpy();
 void arrayWhile();
 void mixstring();
 int ostrstr();
-int länge();
+int laenge();
 
 
 #endif //FUNKTIONEN_H

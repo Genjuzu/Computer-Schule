@@ -1,19 +1,11 @@
-#include <iostream>
-using namespace std;
+#include "funktionen.h"
 
 int main()
 {
-    int a = 10;
-    int b = 4;
-    int i;
-    float c = a/b;
 
-    cout << c++ << endl << endl << endl;
-
-    for(i = 0; i < 15; i++) {
-        cout << i << endl;
-    }
-    cout << endl << i << endl;
+    // Dezimalkreis();
+    // addition();
+    faklutaet();
 
     return 0;
 }

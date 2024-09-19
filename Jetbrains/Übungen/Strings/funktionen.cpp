@@ -81,6 +81,11 @@ int ostrlen(char *ziel) {
     }
     return i;
 }                                           // Übung 2 - Richtig
+int laenge (char *zaehler) {
+    int a = 0;
+    while (zaehler[a++]);
+    return(a-1);
+}
 void upstring(char *ziel) {
     int i = 0;
     char ascii = 0;
@@ -151,23 +156,39 @@ void mixstring(char *ziel, char *quelle1, char *quelle2) {           // Übung 5
     ziel[i] = '\0';   //Sonst fehlt die Nullstelle im Ziel
 }       // Übung 5 - Richtig
 
-int länge (char *zaehler) {
-    int a = 0;
-    while (zaehler[a++]);
-    return(a-1);
-}
+
+
 
 
 int ostrstr(char *satz, char *wort){
     int i;
-    int s;
-    int indx;
+    int zaehler = 0;
+    int index = 0;
 
-        for(i=0 ; i < (länge(satz) -länge(wort)); i++) {
+    for (i = 0; i < satz[i]; i++) {
+        if (satz[i] == wort[zaehler]){
+            index = i;
 
+            while (satz[i] == wort[zaehler] && satz[i]) {
+                zaehler++;
+                if (wort[zaehler] == 0) {
+                    return index;
+                }
+                i++;
+            }
+            i = index +1;
+        }
 
+        else{
+            return -1;
+        }
     }
+
+    return index;
 }
+
+
+
 
 // Ausführbare Funktionen
 void Übung1(){
@@ -232,6 +253,7 @@ void Übung6() {
     cin.getline(String1, 100);
     cout << "Bitte gib nun einen Satz ein ein, der dein Wort darin durchsucht : ";
     cin.getline(String2, 100);
+
     ostrstr(String2, String1);
 }
 

@@ -3,4 +3,6 @@ project(jmnhhhgj)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(jmnhhhgj main.cpp)
+add_executable(jmnhhhgj main.cpp
+        funktionen.h
+        funktionen.cpp)
