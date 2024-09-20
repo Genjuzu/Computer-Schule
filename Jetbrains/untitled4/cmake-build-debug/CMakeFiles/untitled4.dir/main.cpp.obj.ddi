@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\untitled4.dir\\main.cpp.obj",
+            "outputs": [
+                "C:\\Users\\CSL\\source\\repos\\Github\\Jetbrains\\untitled4\\cmake-build-debug\\vc140.pdb",
+                "CMakeFiles\\untitled4.dir\\main.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

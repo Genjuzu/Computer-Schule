@@ -156,22 +156,6 @@ void mixstring(char *ziel, char *quelle1, char *quelle2) {           // Übung 5
     ziel[i] = '\0';   //Sonst fehlt die Nullstelle im Ziel
 }       // Übung 5 - Richtig
 
-void leftst(char* ziel, const char* quelle, int anz) {
-    // Überprüfen, ob die Anzahl der zu kopierenden Zeichen größer ist als die Länge des Quellstrings
-    int laenge = strlen(quelle);
-    if (anz > laenge) {
-        anz = laenge; // Wenn mehr Zeichen kopiert werden sollen, als vorhanden sind, passe 'anz' an
-    }
-
-    // Kopiere die ersten 'anz' Zeichen vom Quellstring in den Zielstring
-    for (int i = 0; i < anz; i++) {
-        ziel[i] = quelle[i];
-    }
-
-    // Füge die Endekennung '\0' (Null-Terminator) hinzu
-    ziel[anz] = '\0';
-}
-
 void leftstring(char *ziel, char *quelle, int anz) {
     int i = 0;
     // Bei der ersten Schleife sind stet
@@ -222,26 +206,26 @@ int ostrstr(char *satz, char *wort){
 
     return index;
 }
-void rightstr(char* ziel, const char* quelle, int anz) {
-    // Länge des Quellstrings
-    int laenge = strlen(quelle);
-
-    // Überprüfen, ob die Anzahl der zu kopierenden Zeichen größer ist als die Länge des Quellstrings
-    if (anz > laenge) {
-        anz = laenge; // Wenn mehr Zeichen kopiert werden sollen, als vorhanden sind, passe 'anz' an
-    }
-
-    // Startpunkt für das Kopieren der letzten 'anz' Zeichen
-    int start = laenge - anz;
-
-    // Kopieren die letzten 'anz' Zeichen vom Quellstring in den Zielstring
-    for (int i = 0; i < anz; i++) {
-        ziel[i] = quelle[start + i];
-    }
+// void rightstr(char* ziel, const char* quelle, int anz) {
+//     // Länge des Quellstrings
+//     // int laenge = strlen(quelle);
+//
+//     // Überprüfen, ob die Anzahl der zu kopierenden Zeichen größer ist als die Länge des Quellstrings
+//     if (anz > laenge) {
+//         anz = laenge; // Wenn mehr Zeichen kopiert werden sollen, als vorhanden sind, passe 'anz' an
+//     }
+//
+//     // Startpunkt für das Kopieren der letzten 'anz' Zeichen
+//     int start = laenge - anz;
+//
+//     // Kopieren die letzten 'anz' Zeichen vom Quellstring in den Zielstring
+//     for (int i = 0; i < anz; i++) {
+//         ziel[i] = quelle[start + i];
+//     }
 
     // die Endekennung '\0' (Null-Terminator)
-    ziel[anz] = '\0';
-}
+//     ziel[anz] = '\0';
+// }
 
 
 // Ausführbare Funktionen
@@ -310,7 +294,6 @@ void Übung6() {
 
     ostrstr(String2, String1);
 }
-
 void Übung7() {
     char quelle[100];
     char ziel[100]; // Zielstring sollte groß genug sein, um die Zeichen aufzunehmen
@@ -334,17 +317,17 @@ void Übung7() {
 
 
 
-void Übung8() {
-    const char quelle[] = "HalloWelt";
-    char ziel[100]; // Zielstring sollte groß genug sein, um die Zeichen aufzunehmen
-    int anz = 4;
-
-    // Aufruf der Funktion rightstr
-    rightstr(ziel, quelle, anz);
-
-    // Ausgabe des Zielstrings zur Kontrolle
-    std::cout << "Zielstring: " << ziel << std::endl;
-}
+// void Übung8() {
+//     const char quelle[] = "HalloWelt";
+//     char ziel[100]; // Zielstring sollte groß genug sein, um die Zeichen aufzunehmen
+//     int anz = 4;
+//
+//     // Aufruf der Funktion rightstr
+//     rightstr(ziel, quelle, anz);
+//
+//     // Ausgabe des Zielstrings zur Kontrolle
+//     std::cout << "Zielstring: " << ziel << std::endl;
+// }
 void Übung9() {
 }
 
