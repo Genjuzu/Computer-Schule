@@ -1,0 +1,3 @@
+C:/Users/CSL/Documents/GitHub/Computer-Schule/Jetbrains/Kordt Unterricht/cmake-build-debug/CMakeFiles/Kordt_Unterricht.dir
+C:/Users/CSL/Documents/GitHub/Computer-Schule/Jetbrains/Kordt Unterricht/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/CSL/Documents/GitHub/Computer-Schule/Jetbrains/Kordt Unterricht/cmake-build-debug/CMakeFiles/rebuild_cache.dir

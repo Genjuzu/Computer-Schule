@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/CSL/source/repos/Github/Jetbrains/Übungen/Strings
+# Install script for directory: C:/Users/CSL/Documents/GitHub/Computer-Schule/Jetbrains/Übungen/Strings
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/CSL/source/repos/Github/Jetbrains/Übungen/Strings/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/CSL/Documents/GitHub/Computer-Schule/Jetbrains/Übungen/Strings/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
