@@ -1,7 +1,6 @@
 #include "funktionen.h"
 
 
-
 int main() {
     system("chcp 65001");
     system("cls");
@@ -13,7 +12,7 @@ int main() {
     // Übung5();
     // Übung6();
     // Übung7();
-    Übung8();
+    // Übung8();
     // Übung9();
 
 

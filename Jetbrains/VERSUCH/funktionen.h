@@ -7,7 +7,7 @@ using namespace std;
 #ifndef FUNKTIONEN_H
 #define FUNKTIONEN_H
 
-void Arrayz();
-
+void eingabe(int *pnt, int laenge);
+void ausgabe(int *pnt, int laenge);
 
 #endif //FUNKTIONEN_H

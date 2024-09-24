@@ -2,18 +2,24 @@
 
 #include "funktionen.h"
 
-void Arrayz(int *x, int i) {
-    cout << "Bitte gebe die Erste von Zehn zahlen ein:";
-    cin >> x[i];
+void eingabe(int *pnt, int laenge){
+    int i =0;
+    cout << "Bitte gebe " << laenge << " Werte an : " << endl;
 
-    for ( i = 1; i < 10; i++) {
-        cout << "Bitte gebe nun Zahl " << i  << " ein:";
-        cin >> x[i];
+    while (i < laenge) {
+        cin >> pnt[i];
+        i++;
     }
+}
 
-    cout << "Super, Vielen Dank! Deine Zahlen lauteten: " << endl;
 
-    for (int i = 0; i < 10; i++) {
-        cout << x[i] << endl;
+void ausgabe(int *pnt, int laenge) {
+
+    cout << "Die Werte werden nun Rueckwaerts ausgegeben";
+
+    int i = laenge -1;
+    while (i != -1) {
+        cout << pnt[i] << endl;
+        i--;
     }
 }

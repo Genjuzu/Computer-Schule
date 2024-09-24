@@ -181,9 +181,7 @@ int ostrstr(char *satz, char *wort){
 
     return index;
 }                              // Übung 6 - Richtig
-
 void leftstring(char *ziel, char *quelle, int anz) {
-
     int Laenge = ostrlen(quelle);  // Länge des Quell-Strings ermitteln
     int i = 0;
 
@@ -200,45 +198,39 @@ void leftstring(char *ziel, char *quelle, int anz) {
 
         cout << ziel << endl;
 }
-
-
 void rightstring(char *ziel, char *quelle, int anz) {
+    int Laenge = ostrlen(quelle);  // Länge des Quell-Strings ermitteln
+    int i = anz;
+
+    // Überprüfen, ob anz größer als die Länge des Quell-Strings ist
+    if (anz > Laenge) {
+        anz = Laenge;
+    }
+            if (Laenge -i > 0)
+                quelle = quelle + Laenge-i;
+            leftstring (ziel, quelle, anz);
+}
+void mixstring(char *ziel, char *quelle, int anz, int pos) {
 
     int Laenge = ostrlen(quelle);            // Länge des Quell-Strings ermitteln
-    int start = Laenge - anz;               // Startpunkt für die letzten 'anz' Zeichen des Quell-Strings
-    int i = 0;                             // Zähler für die Kopiervorgänge
+    int LanegeZ = ostrlen(ziel);
 
-    // Kopiere die letzten 'anz' Zeichen von rechts nach links in den Ziel-String
-
-
-
-
-    while (ziel[i]) {
-        i++;
-        while (ziel[i + start] < Laenge && ziel[i]) {
-            ziel[i] = quelle[i];
-            i++;
-        }
-
+    // Überprüfen, ob anz größer als die Länge des Quell-Strings ist
+    if (anz > (Laenge - pos)) {
+        anz = Laenge - pos;
     }
 
-    ziel[anz] = '\0';  // Nullterminierung für den Ziel-String
+    for (int i = 0; i < anz; ++i) {
+        ziel[i] = quelle[pos + i];
+    }
+
+    ziel[LanegeZ + anz] = '\0';  // Nullterminierung für den Ziel-String
 
     // Ausgabe des Zielstrings
     cout << "Ergebnis: " << ziel << endl;
 }
 
 
-
-// void rightstr(char* ziel, const char* quelle, int anz) {
-
-//     // Kopieren die letzten 'anz' Zeichen vom Quellstring in den Zielstring
-//     for (int i = 0; i < anz; i++) {
-//         ziel[i] = quelle[start + i];
-//     }
-    // die Endekennung '\0' (Null-Terminator)
-//     ziel[anz] = '\0';
-// }
 
 
 // Ausführbare Funktionen
@@ -342,9 +334,27 @@ void Übung8() {
 
     rightstring(ziel, quelle, anz);
 }
-
-
 void Übung9() {
+    char quelle[100];
+    char ziel[100]; // Zielstring sollte groß genug sein, um die Zeichen aufzunehmen
+    int anz;
+    int pos;
+
+    cout << "Bitte gebe ein Wort ein, dass wir zum kopieren nutzen werden: ";
+    cin.getline(quelle,80);
+
+    cout << "Bitte gebe ein zweites Wort ein, auf das kopiert wird: ";
+    cin.getline(ziel,80);
+
+    cout << "Bitte gebe nun eine Zahl an. Diese Zahl bestimmt die Anzahl der Buchstaben, die in das zweite Wort kopiert werden : ";
+    cin >> anz;
+
+    cout << "Bitte gebe nun eine Zahl an. Diese Zahl bestimmt die Positionm an der der Kopiervorgang in der Quelle beginnen soll : ";
+    cin >> pos;
+
+
+    // Aufruf der Funktion leftstr
+    mixstring(ziel,quelle,anz,pos);
 }
 
 

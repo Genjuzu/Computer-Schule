@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 26)
 
 add_executable(String_Arrays main.cpp
         funktionen.cpp
-        funktionen.h)
+        funktionen.h
+
+)
