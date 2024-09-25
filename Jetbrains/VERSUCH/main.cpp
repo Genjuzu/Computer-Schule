@@ -2,17 +2,10 @@
 
 int main()
 {
-    int Array[10];
+    char pntr1[100];
+    char pntr2[100];
 
-eingabe(Array, 10);
-
-
-
-ausgabe(Array, 10);
-
-
+    Aufgabe1();
 
     system("pause");
-
-    return 0;
 }

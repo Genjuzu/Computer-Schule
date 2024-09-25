@@ -5,7 +5,7 @@ int main() {
     system("chcp 65001");
     system("cls");
 
-    // Übung1();
+    Übung1();
     // Übung2();
     // Übung3();
     // Übung4();

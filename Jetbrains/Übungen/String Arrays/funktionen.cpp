@@ -54,7 +54,7 @@ void WhileCpy(char *ziel, char *quelle) {
         ziel[j] = quelle[j];
         j++;
     }
-    ziel[j] = '\0';   //Sonst fehlt die Nullstelle im Ziel
+    ziel[j] = quelle[j];   //Sonst fehlt die Nullstelle im Ziel
 
 }                                  // Übung 1 - Richtig
 void ForCpy(char *ziel, char *quelle){
@@ -65,20 +65,9 @@ void ForCpy(char *ziel, char *quelle){
     }
     ziel[i] = 0;     //Sonst fehlt die Nullstelle im Ziel
 }                                   // Übung 1 - Alternativ
-void ostrlen2(char *ziel) {
-    int i = 0;
-    int n = 1;
-    while(ziel[i]) {
-        i++;
-        n++;
-    }
-    cout << endl << "Vielen Dank\n\nDein Text hat " << n - 1 << " Zeichen.  =)" << endl;
-}                                              // Übung 2 - Falsch
 int ostrlen(char *ziel) {
     int i = 0;
-    while(ziel[i]) {
-        i++;
-    }
+    while(ziel[i++])
     return i;
 }                                               // Übung 2 - Richtig
 int laenge (char *zaehler) {
@@ -231,11 +220,9 @@ void mixstring(char *ziel, char *quelle, int anz, int pos) {
 }
 
 
-
-
 // Ausführbare Funktionen
 void Übung1(){
-    char a[] = "Dies ist sein String";
+    char a[] = "Dies ist kein String";
     char b[30];
     WhileCpy(b, a);
     cout << b << endl;

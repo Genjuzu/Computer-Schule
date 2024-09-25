@@ -1,5 +1,0 @@
-ninja_dyndep_version = 1.0
-build CMakeFiles\Arrays_Pointer.dir\main.cpp.obj: dyndep
-
-build CMakeFiles\Arrays_Pointer.dir\funktionen.cpp.obj: dyndep
-

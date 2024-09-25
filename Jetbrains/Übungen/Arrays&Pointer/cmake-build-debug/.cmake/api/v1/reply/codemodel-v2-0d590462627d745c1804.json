@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Arrays_Pointer::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Arrays_Pointer-Debug-da48e02bbc425ee3b158.json",
+					"jsonFile" : "target-Arrays_Pointer-Debug-82cbb9097ea61e273c26.json",
 					"name" : "Arrays_Pointer",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/CSL/source/repos/Github/Jetbrains/\u00dcbungen/Arrays&Pointer/cmake-build-debug",
-		"source" : "C:/Users/CSL/source/repos/Github/Jetbrains/\u00dcbungen/Arrays&Pointer"
+		"build" : "C:/Users/CSL/Documents/GitHub/Computer-Schule/Jetbrains/\u00dcbungen/Arrays&Pointer/cmake-build-debug",
+		"source" : "C:/Users/CSL/Documents/GitHub/Computer-Schule/Jetbrains/\u00dcbungen/Arrays&Pointer"
 	},
 	"version" : 
 	{

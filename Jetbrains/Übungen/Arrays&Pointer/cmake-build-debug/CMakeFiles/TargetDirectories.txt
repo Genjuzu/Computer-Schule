@@ -1,3 +1,3 @@
-C:/Users/CSL/source/repos/Github/Jetbrains/Übungen/Arrays&Pointer/cmake-build-debug/CMakeFiles/Arrays_Pointer.dir
-C:/Users/CSL/source/repos/Github/Jetbrains/Übungen/Arrays&Pointer/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/CSL/source/repos/Github/Jetbrains/Übungen/Arrays&Pointer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/CSL/Documents/GitHub/Computer-Schule/Jetbrains/Übungen/Arrays&Pointer/cmake-build-debug/CMakeFiles/Arrays_Pointer.dir
+C:/Users/CSL/Documents/GitHub/Computer-Schule/Jetbrains/Übungen/Arrays&Pointer/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/CSL/Documents/GitHub/Computer-Schule/Jetbrains/Übungen/Arrays&Pointer/cmake-build-debug/CMakeFiles/rebuild_cache.dir

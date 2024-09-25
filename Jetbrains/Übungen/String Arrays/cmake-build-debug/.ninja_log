@@ -1,9 +1,11 @@
 # ninja log v6
-628	716	7488764606147287	String_Arrays.exe	3d6e196ce6576970
-16	597	7488764600035411	CMakeFiles/String_Arrays.dir/main.cpp.obj	69dfe9d2ccdf8f69
-9	1005	7488779005602308	CMakeFiles/String_Arrays.dir/funktionen.cpp.obj	f13427e3fcf7b80d
-13	1005	7488779005632225	CMakeFiles/String_Arrays.dir/2word.cpp.obj	61d980f1fa5e4290
-2	212	7488780616959232	build.ninja	aa09e2a3f2929c84
-10	539	7488781017640459	CMakeFiles/String_Arrays.dir/funktionen.cpp.obj	f13427e3fcf7b80d
-8	510	7488781103501536	CMakeFiles/String_Arrays.dir/main.cpp.obj	69dfe9d2ccdf8f69
 510	696	7488781108532114	String_Arrays.exe	a7be480244928c39
+8	510	7488781103501536	CMakeFiles/String_Arrays.dir/main.cpp.obj	69dfe9d2ccdf8f69
+10	539	7488781017640459	CMakeFiles/String_Arrays.dir/funktionen.cpp.obj	f13427e3fcf7b80d
+13	1005	7488779005632225	CMakeFiles/String_Arrays.dir/2word.cpp.obj	61d980f1fa5e4290
+2	212	7489499973388262	build.ninja	aa09e2a3f2929c84
+9	702	7489501565030924	CMakeFiles/String_Arrays.dir/main.cpp.obj	69dfe9d2ccdf8f69
+14	728	7489501565090761	CMakeFiles/String_Arrays.dir/funktionen.cpp.obj	f13427e3fcf7b80d
+728	908	7489501572231955	String_Arrays.exe	a7be480244928c39
+7	1216	7489501726522850	CMakeFiles/String_Arrays.dir/funktionen.cpp.obj	f13427e3fcf7b80d
+1217	2465	7489501738620508	String_Arrays.exe	a7be480244928c39
