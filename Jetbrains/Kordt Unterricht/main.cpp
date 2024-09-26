@@ -9,5 +9,5 @@ int main()
     int y = 2;
     int z = 3;
 
-    Summe(x,y,z);
+
 }

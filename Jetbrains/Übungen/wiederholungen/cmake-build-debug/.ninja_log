@@ -1,0 +1,5 @@
+# ninja log v6
+19	529	7490508930288994	CMakeFiles/wiederholungen.dir/main.cpp.obj	742ed9813b0c11eb
+573	710	7490518667838601	wiederholungen.exe	d4c7dd7b31c20832
+7	573	7490518662180292	CMakeFiles/wiederholungen.dir/funktionen.cpp.obj	18eb020e5ba40317
+2	341	7490458851778351	build.ninja	9b025b71605ff9f0

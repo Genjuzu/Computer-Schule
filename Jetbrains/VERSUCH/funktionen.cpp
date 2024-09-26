@@ -9,7 +9,6 @@ void eingabe(char *pntr1, char *pntr2){
     cin.getline(pntr2, 100);
 }
 
-
 void toSmall (char *pntr) {
     int i = 0;
     while (pntr[i]) {
@@ -19,9 +18,6 @@ void toSmall (char *pntr) {
         i++;
     }
 }
-
-
-
 
 void strcopy_if_not_exists(char *quelle, char *ziel) {
     int q = 0;
