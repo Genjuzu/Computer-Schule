@@ -1,0 +1,3 @@
+C:/Users/CSL/Documents/GitHub/Computer-Schule/Übung/STRUCT/cmake-build-debug/CMakeFiles/STRUCT.dir
+C:/Users/CSL/Documents/GitHub/Computer-Schule/Übung/STRUCT/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/CSL/Documents/GitHub/Computer-Schule/Übung/STRUCT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
