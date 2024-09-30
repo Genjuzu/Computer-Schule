@@ -16,7 +16,7 @@ html {
 /* Custom Header with Background Image and Vignette */
 .custom-header {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.8) 100%),
-  url('img/title.jpg') center/cover no-repeat;
+  url('img/banner/1337-6b1d4faa-476d-11ef-8aab-92ed93f575db 1.jpg') center/cover no-repeat;
   height: 50vh; /* Responsive height using viewport units */
   display: flex;
   align-items: center;
@@ -70,7 +70,7 @@ html {
 }
 
 .main-menu ul li:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
   text-shadow: 0 0 5px #00ffda, 0 0 10px rgba(21, 161, 135, 0.74);
 }
 
@@ -89,7 +89,6 @@ html {
 .dropdown-content {
   max-height: 0;
   overflow: hidden;
-  position: absolute;
   background: rgba(0, 0, 0, 0.8) url('/img/buttons/but1.gif') center/cover no-repeat;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
@@ -102,7 +101,7 @@ html {
 }
 
 .dropdown-content a {
-  padding: 12px;
+  padding: 20px;
   color: white;
   text-decoration: none;
   display: block;
@@ -194,6 +193,8 @@ input[type="range"] {
 .chapter p span.visible {
   opacity: 1;
 }
+
+
 
 /* Autor Section */
 .autor-section {

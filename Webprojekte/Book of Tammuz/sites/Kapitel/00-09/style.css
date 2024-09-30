@@ -22,8 +22,6 @@ html {
   border-bottom: 2px solid #000000;
 }
 
-
-
 .header-overlay {
   background: rgba(0, 0, 0, 0.2); /* Adds a dark overlay for better text readability */
   width: 100%;
@@ -247,9 +245,6 @@ input[type="range"]::-moz-range-thumb {
 #startAudio:hover {
   background-color: #00c0c0;
 }
-
-
-
 
 
 .spacer {
