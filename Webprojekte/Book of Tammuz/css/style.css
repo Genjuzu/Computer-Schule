@@ -229,6 +229,97 @@ html {
 
 
 
+
+/* Wrapper for centering all page content */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensures the content takes at least the full viewport height */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Centering the chapter content within the page */
+.chapter-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px; /* Max width for the content (adjustable) */
+  margin: 20px 0;
+  text-align: center; /* Ensures text is centered */
+}
+
+.chapter-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+/* Title styling - positioned below the image */
+.chapter-title {
+  margin-top: 15px; /* Space between the image and the title */
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  font-size: 1.5em;
+  font-weight: 300; /* Thinner font for the main title */
+  text-align: center;
+  width: 90%;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.chapter-title .chapter-number {
+  font-size: 0.8em; /* Smaller font size for chapter numbers */
+  font-weight: normal; /* Regular weight for chapter numbers */
+  display: block; /* Ensures it stays on a separate line */
+  margin-top: 5px; /* Adds space between title and chapter number */
+}
+
+.chapter-title:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #f4f4f4;
+}
+
+
+/* Hover effect for ethereal turquoise glow */
+.chapter-content {
+  transition: transform 0.5s ease, text-shadow 0.8s ease-in-out; /* Smoother transitions for both properties */
+}
+
+.chapter-content:hover {
+  transform: scale(1.05);
+  text-shadow: 0 0 10px rgba(21, 161, 135, 0.74),
+  0 0 15px rgba(21, 161, 135, 0.74),
+  0 0 20px #00fff7,
+  0 0 30px rgba(34, 97, 70, 0),
+  0 0 40px #49FF18,
+  0 0 55px rgba(34, 97, 70, 0),
+  0 0 75px rgba(34, 97, 70, 0);
+  transition: transform 0.5s ease, text-shadow 0.8s ease-in-out; /* Smooth transition effect for the hover */
+}
+
+/* Optional: Ensure the entire content is centered on mobile as well */
+@media (max-width: 768px) {
+  .chapter-content {
+    max-width: 100%; /* Use full width on smaller screens */
+  }
+}
+
+
+
+
+
+
+
+
+
 .spacer2 {
   background-image: url('img/buttons/brk.jpg'); /* Stelle sicher, dass der Pfad korrekt ist */
   background-size: cover; /* Das Bild wird über die gesamte Breite und Höhe skaliert */
