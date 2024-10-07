@@ -3,4 +3,6 @@ project(STRUCT)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(STRUCT main.cpp)
+add_executable(STRUCT main.cpp
+        funktionen.cpp
+        funktionen.h)
