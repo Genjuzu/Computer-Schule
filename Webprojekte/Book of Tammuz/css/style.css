@@ -229,10 +229,6 @@ html {
 
 
 
-
-
-
-
 .spacer2 {
   background-image: url('img/buttons/brk.jpg'); /* Stelle sicher, dass der Pfad korrekt ist */
   background-size: cover; /* Das Bild wird über die gesamte Breite und Höhe skaliert */
@@ -241,8 +237,6 @@ html {
   width: 100vw; /* Volle Breite des Bildschirms */
   margin: 0 auto; /* Zentriert die Trennlinie */
 }
-
-
 
 
 
