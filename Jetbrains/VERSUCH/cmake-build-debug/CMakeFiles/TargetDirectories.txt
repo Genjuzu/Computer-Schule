@@ -1,3 +1,3 @@
-C:/Users/CSL/Documents/GitHub/Computer-Schule/Jetbrains/VERSUCH/cmake-build-debug/CMakeFiles/VERSUCH.dir
-C:/Users/CSL/Documents/GitHub/Computer-Schule/Jetbrains/VERSUCH/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/CSL/Documents/GitHub/Computer-Schule/Jetbrains/VERSUCH/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Wudu/OneDrive/Dokumente/GitHub/Cpp-Repo/Jetbrains/VERSUCH/cmake-build-debug/CMakeFiles/VERSUCH.dir
+C:/Users/Wudu/OneDrive/Dokumente/GitHub/Cpp-Repo/Jetbrains/VERSUCH/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Wudu/OneDrive/Dokumente/GitHub/Cpp-Repo/Jetbrains/VERSUCH/cmake-build-debug/CMakeFiles/rebuild_cache.dir
