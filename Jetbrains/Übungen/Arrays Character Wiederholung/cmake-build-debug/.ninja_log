@@ -1,0 +1,5 @@
+# ninja log v6
+30	123	7490388187703077	CMakeFiles/Arrays_Character_Wiederholung.dir/funktionen.cpp.obj	a5221a59d74d08b0
+25	549	7490388187613418	CMakeFiles/Arrays_Character_Wiederholung.dir/main.cpp.obj	832fe5747fbee767
+549	689	7490388192844065	Arrays_Character_Wiederholung.exe	88f694742f6e96f7
+2	312	7490388261958582	build.ninja	c19344385a5150ff

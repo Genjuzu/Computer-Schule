@@ -193,6 +193,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+
+
 document.addEventListener('DOMContentLoaded', function() {
   const paragraphs = document.querySelectorAll('.chapter p'); // Wähle alle Absatz-Elemente aus
   let currentParagraphIndex = 0; // Startindex für den aktuellen Absatz
@@ -208,12 +210,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Nur scrollen, wenn noch nicht die Zielposition erreicht ist
     if (Math.abs(distance) > 1) {
-      window.scrollBy(0, distance * 0.0011); // Verändere hier die Geschwindigkeit (0.02 für langsameres Scrollen)
+      // Definiere eine konstante Scrollgeschwindigkeit (hier 3px pro Frame)
+      const scrollStep = distance > 0 ? Math.min(1, distance) : Math.max(-1, distance);
+      window.scrollBy(0, scrollStep); // Scrollt in gleichmäßigen Schritten
+
       requestAnimationFrame(smoothScroll); // Wiederhole die Scroll-Animation
+    } else {
+      // Stoppe das Scrollen, wenn die Zielposition fast erreicht ist
+      isScrolling = false;
     }
   }
-
-
 
   function typeText() {
     if (currentParagraphIndex >= paragraphs.length) {
@@ -246,12 +252,12 @@ document.addEventListener('DOMContentLoaded', function() {
         smoothScroll(); // Starte die Scroll-Animation
       }
 
-      setTimeout(typeText, 45); // Geschwindigkeit des Tippens (in Millisekunden)
+      setTimeout(typeText, 10); // Geschwindigkeit des Tippens (in Millisekunden)
     } else if (currentParagraphIndex < paragraphs.length - 1) {
       // Wechsle zum nächsten Absatz, wenn der aktuelle fertig ist
       currentParagraphIndex++;
       currentCharacterIndex = 0;
-      setTimeout(typeText, 500); // Kurze Verzögerung zwischen den Absätzen
+      setTimeout(typeText, 1); // Kurze Verzögerung zwischen den Absätzen
     }
   }
 

@@ -70,11 +70,6 @@ int ostrlen(char *ziel) {
     while(ziel[i++])
     return i;
 }                                               // Übung 2 - Richtig
-int laenge (char *zaehler) {
-    int a = 0;
-    while (zaehler[a++]);
-    return(a-1);
-}
 void upstring(char *ziel) {
     int i = 0;
     char ascii = 0;
@@ -218,6 +213,11 @@ void mixstring(char *ziel, char *quelle, int anz, int pos) {
     // Ausgabe des Zielstrings
     cout << "Ergebnis: " << ziel << endl;
 }
+int laenge (char *zaehler) {
+    int a = 0;
+    while (zaehler[a++]);
+    return(a-1);
+}
 
 
 // Ausführbare Funktionen
@@ -248,7 +248,7 @@ void Übung4() {
     cin.getline(input, 80);
 
     ostrlen(input);
-    int i = ostrlen(input) - 1;
+    int i = ostrlen(input) - 1;             // Ohne Endekennung
     cout << "\nOkay! Das sind " << i << " Zeichen\nIch werde sie nun umdrehen.\nBist du bereit?\n" << endl;
 
     system("pause");
@@ -369,6 +369,7 @@ void arrayWhile() {
 }
 
 void midstr() {
+
 }
 
 
