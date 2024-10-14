@@ -71,6 +71,7 @@ build CMakeFiles/STRUCT.dir/funktionen.cpp.obj: CXX_COMPILER__STRUCT_unscanned_D
 
 build STRUCT.exe: CXX_EXECUTABLE_LINKER__STRUCT_Debug CMakeFiles/STRUCT.dir/main.cpp.obj CMakeFiles/STRUCT.dir/funktionen.cpp.obj
   FLAGS = -g
+  LINK_FLAGS = -static
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\STRUCT.dir
   POST_BUILD = cd .

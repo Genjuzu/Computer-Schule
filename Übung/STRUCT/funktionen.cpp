@@ -13,6 +13,9 @@ void personenDaten(person* p) {
     getline(cin, p->addresse);  // Zugriff auf das address-Feld der Struktur über den Zeiger
 }
 
+
+
+
 void kartengenerator(karte *deck) {
     string farben[4] = {"Pik", "Herz", "Karo", "Kreuz"};
     string namen[13] = {"Zwei", "Drei", "Vier", "Fuenf", "Sechs", "Sieben", "Acht", "Neun", "Zehn", "Bube", "Dame", "Koenig", "Ass"};
@@ -28,7 +31,6 @@ void kartengenerator(karte *deck) {
         }
     }
 }
-
 void kartendeck() {    karte deck[52]; // Array für 52 Karten
     kartengenerator(deck); // Deck generieren
 

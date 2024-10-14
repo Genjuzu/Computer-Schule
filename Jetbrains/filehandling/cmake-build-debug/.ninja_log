@@ -1,0 +1,15 @@
+# ninja log v6
+15	576	7503356581415328	CMakeFiles/filehandling.dir/main.cpp.obj	a2bac23a08c039cd
+577	739	7503356587041594	filehandling.exe	d54f116ccbfd96f6
+6	19	7503356458629441	clean	20b1347d9ae3b987
+70	950	7506032568489600	CMakeFiles/filehandling.dir/main.cpp.obj	a2bac23a08c039cd
+80	963	7506032568590452	CMakeFiles/filehandling.dir/funktionen.cpp.obj	d3a80e2cd23d46a1
+963	1213	7506032577420426	filehandling.exe	27e2381fa26e578d
+14	736	7506033544707177	CMakeFiles/filehandling.dir/main.cpp.obj	a2bac23a08c039cd
+21	747	7506033544767289	CMakeFiles/filehandling.dir/funktionen.cpp.obj	d3a80e2cd23d46a1
+748	861	7506033552035915	filehandling.exe	27e2381fa26e578d
+15	658	7506033833092297	CMakeFiles/filehandling.dir/funktionen.cpp.obj	d3a80e2cd23d46a1
+659	758	7506033839536786	filehandling.exe	27e2381fa26e578d
+16	650	7506034268669491	CMakeFiles/filehandling.dir/funktionen.cpp.obj	d3a80e2cd23d46a1
+651	744	7506034275016436	filehandling.exe	27e2381fa26e578d
+8	646	7506053130988508	CMakeFiles/filehandling.dir/main.cpp.obj	a2bac23a08c039cd

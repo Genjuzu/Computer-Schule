@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "STRUCT.exe"
+			"path" : "KLASSEN.exe"
 		},
 		{
-			"path" : "STRUCT.pdb"
+			"path" : "KLASSEN.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -57,7 +57,7 @@
 			]
 		}
 	],
-	"id" : "STRUCT::@6890427a1f51a3e7e1df",
+	"id" : "KLASSEN::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -77,8 +77,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "STRUCT",
-	"nameOnDisk" : "STRUCT.exe",
+	"name" : "KLASSEN",
+	"nameOnDisk" : "KLASSEN.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -113,12 +113,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "funktionen.cpp",
+			"path" : "Flugzeug.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "funktionen.h",
+			"path" : "Flugzeug.h",
 			"sourceGroupIndex" : 1
 		}
 	],

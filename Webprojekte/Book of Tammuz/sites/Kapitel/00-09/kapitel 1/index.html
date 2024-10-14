@@ -89,60 +89,62 @@
   </div>
 </section>
 
-<div class="audio-player">
-  <audio id="audio" preload="auto">
-    <source src="/musik/Northman.mp3" type="audio/mp3">
-    Your browser does not support the audio element.
-  </audio>
-  <div class="controls">
-    <button id="playPause" class="play-btn"></button>
-    <input type="range" id="seekBar" value="0" max="100">
-    <button id="muteUnmute" class="mute-btn"></button>
-  </div>
-
-  <!-- Button für Benutzerinteraktion -->
-  <div id="startAudioContainer" style="position: fixed; top: 0; left: 0; width: 1%; height: 1%;; display: flex; align-items: center; justify-content: center;">
-  </div>
-</div>
 
 
-<!-- Kapitelcontainer -->
+
+
+
+<!-- Kapitelcontainer, wo der dynamische Inhalt eingefügt wird -->
 <div id="chapter-container">
-  <!-- Erstes Kapitel -->
-  <section class="chapter">
-    <br><br><br><br>
-    <h2>INITIATION</h2>
-    <br><br><br><br><br><br><br><br><br><br><br><br>
+  <!-- Platzhalter für den dynamischen Titel -->
+  <h2 id="chapter-title">Lädt...</h2>
 
-    <p>In einem schlagartigen Aufblitzen der Ewigkeit, wo selbst das Licht zu einem Flüstern erstirbt,
-    fand er sich unvermittelt aus dem Nichts gerissen -
-    erwachend im Herzen einer undurchdringlichen Finsternis.
-    </p><br><p>
-      Ein Schweigen, so dicht gewoben, dass es schien, als könnte es die Zeit selbst zum Erliegen bringen, umhüllte ihn mit einer greifbaren Präsenz; füllte ihn mit einer namenlosen Furcht.
-  </p><br><p>
-      Zunächst war es lediglich die Berührung des kalten Bodens unter seinen Füßen, welche ihm die bittersüße Gewissheit seiner Existenz verlieh.
-    </p><br><p>
-      Doch nach und nach, als würde er sich behutsam aus einem dichten Nebel lösen, begann er, die Feuchtigkeit in der Luft zu spüren, den leisen Widerhall eines Tropfens zu vernehmen, zerschellend auf hartem Gestein.
-  </p><br><p>
-      Die Dunkelheit, die ihn so vollständig umfing, war mehr, als die bloße Abwesenheit von Licht; sie pulsierte in den Tiefen einer Welt, die unlängst vergessen schien.
-  </p><br><p>
-      Diese ersten Eindrücke waren wie Funken, waren wie Funken in der allumfassenden Dunkelheit, die plötzlich ein schwaches grünes Leuchten entfachten.
-  </p><br><p>
-      Er nahm einen tiefen Atemzug, füllte seine Lungen mit der ihn umgebenden Dunkelheit und wagte schließlich einen Schritt. Ein Hall erklang, als käme er von allen Seiten. Er lauschte, schätzte die Größe des Gewölbes anhand des Halls ab.
-  </p><br><p>
-      Er wagte einen weiteren Schritt. Dann noch einen, und kurz darauf erhaschte er einen Blick auf eine Wand vor sich, verziert mit unbekannten Zeichen.</p>
+  <!-- Platzhalter für den dynamischen Kapiteltext -->
+  <section class="chapter">
+    <div id="chapter-content"></div>
   </section>
 </div>
 
 <!-- Loading Spinner -->
 <div id="loading" style="display: none;">Lädt...</div>
 
-
 <!-- Gemeinsames JavaScript für alle Kapitel -->
 <script src="/sites/kapitel/app.js"></script>
+
+<script>
+  // Dynamisch den Slug aus der URL holen
+  const slug = window.location.pathname.split("/").pop();  // Nimmt den letzten Teil der URL als Slug
+
+  // API-Aufruf, um das Kapitel basierend auf dem Slug zu holen
+  fetch(`http://localhost:1337/kapitels?slug=${slug}`)
+    .then(response => response.json())
+    .then(data => {
+      if (data.length > 0) {
+        const kapitel = data[0];  // Erhalte das Kapitel aus dem Array
+        document.querySelector('h2').textContent = kapitel.title;  // Kapitel-Titel setzen
+        document.querySelector('#chapter-content').innerHTML = '';  // Kapitel-Container leeren
+
+        // Kapitelinhalt einfügen
+        kapitel.content.split('\n').forEach(paragraph => {
+          const p = document.createElement('p');
+          p.textContent = paragraph;
+          document.querySelector('#chapter-content').appendChild(p);
+        });
+      } else {
+        document.getElementById('loading').style.display = 'block';  // Fehlerbehandlung: Kein Kapitel gefunden
+        document.getElementById('loading').textContent = 'Kapitel nicht gefunden!';
+      }
+    })
+    .catch(error => {
+      console.error('Fehler beim Laden des Kapitels:', error);
+      document.getElementById('loading').style.display = 'block';  // Fehlerbehandlung
+      document.getElementById('loading').textContent = 'Fehler beim Laden des Kapitels!';
+    });
+</script>
+
 </body>
 
 <footer>
   <p>&copy; 2024 The Book Of Tammuz by Wudu Genjuzu | All rights reserved.</p>
-  </footer>
+</footer>
 </html>
