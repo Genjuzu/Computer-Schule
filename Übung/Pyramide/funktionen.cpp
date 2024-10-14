@@ -29,7 +29,6 @@ cin >> zeilen;
         cout << endl;
     }
 
-
     for(int x = zeilen; x > zeilen - 1; x--) // Zeilen erzeugen und aufhören, wenn Eingabezahl bei 0 angekommem ist
     {
         for(int abstand = x -3; abstand > 0; abstand --)        //abstand = i, da nur i sich beim iterieren verändert, nicht aber die variable 'zeilen'

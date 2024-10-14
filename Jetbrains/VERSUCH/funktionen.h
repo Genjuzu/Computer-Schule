@@ -15,5 +15,8 @@ int ostrlen (char*quelle);
 
 
 void Aufgabe1();
+void Aufgabe2();
+void Aufgabe3();
+void Aufgabe4();
 
 #endif //FUNKTIONEN_H
