@@ -1,0 +1,3 @@
+C:/Users/CSL/Documents/GitHub/Computer-Schule/Jetbrains/Blackjack/cmake-build-debug/CMakeFiles/Blackjack.dir
+C:/Users/CSL/Documents/GitHub/Computer-Schule/Jetbrains/Blackjack/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/CSL/Documents/GitHub/Computer-Schule/Jetbrains/Blackjack/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -10,14 +10,14 @@ int main() {
     int count = sizeof(schueler) / sizeof(schueler[0]);
 
     // Eingabe der Noten für alle Schüler
-    for(int i=0; i < count; i++) {
+    for(int i : summe) {
         cout << "\n Schueler " << (i + 1) << " : ";
         cin >> schueler[i];  // Hier wird die Eingabe für den ersten Schüler gespeichert
     }
 
     // Berechnung der Summe der Noten
     double summe = 0;
-    for(int i = 0; i < 5; i++) {
+    for(int i : summe) {
         summe += schueler[i];
     }
 
