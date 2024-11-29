@@ -1,19 +1,8 @@
 # ninja log v6
-42	908	7544113266842396	CMakeFiles/Blackjack.dir/main.cpp.obj	29ebd5bb71d51d52
-917	1518	7544113275599139	Blackjack.exe	a5521249d18b9521
-9	612	7544128732617218	CMakeFiles/Blackjack.dir/main.cpp.obj	29ebd5bb71d51d52
-612	769	7544128738651099	Blackjack.exe	a5521249d18b9521
-9	675	7544133876854072	CMakeFiles/Blackjack.dir/main.cpp.obj	29ebd5bb71d51d52
-676	834	7544133883521884	Blackjack.exe	a5521249d18b9521
-9	714	7544157047162833	CMakeFiles/Blackjack.dir/main.cpp.obj	29ebd5bb71d51d52
-715	876	7544157054226383	Blackjack.exe	a5521249d18b9521
-21	700	7544158570961354	CMakeFiles/Blackjack.dir/main.cpp.obj	29ebd5bb71d51d52
-700	849	7544158577754941	Blackjack.exe	a5521249d18b9521
-23	708	7544159134599369	CMakeFiles/Blackjack.dir/main.cpp.obj	29ebd5bb71d51d52
-709	867	7544159141451286	Blackjack.exe	a5521249d18b9521
-9	710	7544159486433106	CMakeFiles/Blackjack.dir/main.cpp.obj	29ebd5bb71d51d52
-711	860	7544159493438243	Blackjack.exe	a5521249d18b9521
-25	678	7544177626080338	CMakeFiles/Blackjack.dir/main.cpp.obj	29ebd5bb71d51d52
-678	838	7544177632618008	Blackjack.exe	a5521249d18b9521
-22	713	7544178183105636	CMakeFiles/Blackjack.dir/main.cpp.obj	29ebd5bb71d51d52
-714	861	7544178190018655	Blackjack.exe	a5521249d18b9521
+7	701	7544967976411749	CMakeFiles/Blackjack.dir/main.cpp.obj	29ebd5bb71d51d52
+702	852	7544967983365859	Blackjack.exe	f9ffc1f38d272896
+16	684	7544964549080765	CMakeFiles/Blackjack.dir/functions.cpp.obj	48d9b6ad736197d5
+24	102	7545004334790140	CMakeFiles/Blackjack.dir/neuefunktionen.cpp.obj	1f1f9fdc05697d8a
+14	670	7545004334690393	CMakeFiles/Blackjack.dir/functions.cpp.obj	48d9b6ad736197d5
+7	813	7545004334590667	CMakeFiles/Blackjack.dir/main.cpp.obj	29ebd5bb71d51d52
+813	983	7545004342656534	Blackjack.exe	20d6c4149a18122f
