@@ -1,11 +1,6 @@
 #include "functions.h"
 #include "neuefunktionen.h"
 
-
-
-
-
-
 int main() {
     KartenDeck Deck;              // Erstelle ein Deck-Objekt
     Deck.KartenGenerator();      // Fülle das Deck mit Karten

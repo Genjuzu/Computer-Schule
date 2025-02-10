@@ -65,11 +65,13 @@ void ForCpy(char *ziel, char *quelle){
     }
     ziel[i] = 0;     //Sonst fehlt die Nullstelle im Ziel
 }                                   // Übung 1 - Alternativ
+
 int ostrlen(char *ziel) {
     int i = 0;
     while(ziel[i++])
     return i;
 }                                               // Übung 2 - Richtig
+
 void upstring(char *ziel) {
     int i = 0;
     char ascii = 0;
