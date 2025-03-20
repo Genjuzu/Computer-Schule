@@ -9,6 +9,10 @@ def aufgabe_1():
 
     return gerade_zahlen
 
+
+
+
+
 # Optional: Teste, ob die Datei direkt ausgeführt wird
 if __name__ == "__main__":
     print(aufgabe_1())  # Gibt die Liste aus

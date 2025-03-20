@@ -16,6 +16,8 @@ def rap_songs():
     usr_songs = input("\nPlease add yout favorite song: ")
     songs_2024.append(usr_songs)
 
+    print(songs_2024)
+
     return len(songs_2024)
 
 def buecher():
